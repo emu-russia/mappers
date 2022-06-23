@@ -5,4 +5,4 @@ Links:
 - https://www.qmtpro.com/~nes/chipimages/visualvrc7
 - https://siliconpr0n.org/archive/doku.php?id=vendor:yamaha:opl2
 
-![vrc7-posedge-dffr](/NES/VRC7/imgstore/vrc7-posedge-dffr.png)
+![vrc7-posedge-dffr](vrc7-posedge-dffr.png)
