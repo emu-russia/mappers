@@ -20,7 +20,7 @@ Sources:
 - Datasheet: http://archive.espec.ws/section429/file8886.html
 
 
-The//PD7755 and /^PD7756 are speech synthesis LSI 
+The uPD7755 and uPD7756 are speech synthesis LSI 
 devices that utilize the adaptive differential pulse 
 coded modulation (ADPCM) coding method to produce 
 high-quality, natural speech synthesis. By combining 
@@ -28,10 +28,10 @@ phoneme classification with the ADPCM method, the
 device achieves a compressed bit rate that can 
 synthesize sound effects and melodies in addition to 
 speech sound. A built-in speech data ROM allows 
-synthesis of messages up to 12 seconds (juPD7755) or 
-30 seconds GuPD7756) long. A wide range of operating 
+synthesis of messages up to 12 seconds (uPD7755) or 
+30 seconds (uPD7756) long. A wide range of operating 
 voltages, a compact package, and a standby function 
-permit application of the /iPD7755/56 in a variety of 
+permit application of the uPD7755/56 in a variety of 
 speech synthesis systems, including battery-driven 
 systems.
 
