@@ -15,6 +15,8 @@ they will drain excessycurrent.
 
 When the CS input goes low, ST is enabled. 
 
+![Pad_CS](imgstore/Pad_CS.jpg)
+
 ## #ST (Start)
 
 Setting the ST input low while CS is low will start 
