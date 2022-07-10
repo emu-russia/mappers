@@ -15,3 +15,8 @@ Detailed Chip Info:
 |U7 7756|NEC|D7756C 186	|ADPCM Speech Chip 256 kb	|DIP-18	|8808PY054	 | 	8808	|
 
 https://nescartdb.com/profile/view/4029/moero-pro-tennis
+
+- /IRQ not used
+- M2 not used
+- /WE not used
+- /VRAM_CS = /PA13
