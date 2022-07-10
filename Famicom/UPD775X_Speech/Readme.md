@@ -11,8 +11,10 @@ Games:
 - Moe Pro! '90 Kandou Hen
 - Moe Pro! Saikyou Hen
 
+Dataset: https://drive.google.com/drive/folders/1fqlftz1CWsBIEYqZKbxDAVdwJkAk7JM1
+
 ## Pads
 
 ![7756_pinout](7756_pinout.png)
 
-![pads](pads.png)
+![pads](pads.jpg)
