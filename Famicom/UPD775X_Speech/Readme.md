@@ -1,5 +1,11 @@
 # NEC µPD775x
 
+Fab:
+- CMOS
+- Single metal layer
+- "Hand-made" topology (no standard cells)
+- P-Pockets
+
 Games:
 - Moero!! Pro Yakyuu
 - Moero!! Pro Tennis
