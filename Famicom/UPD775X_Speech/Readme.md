@@ -9,8 +9,8 @@ Games:
 - Moe Pro! '90 Kandou Hen
 - Moe Pro! Saikyou Hen
 
-Dataset: https://drive.google.com/drive/folders/1fqlftz1CWsBIEYqZKbxDAVdwJkAk7JM1
-Datasheet: http://archive.espec.ws/section429/file8886.html
+- Dataset: https://drive.google.com/drive/folders/1fqlftz1CWsBIEYqZKbxDAVdwJkAk7JM1
+- Datasheet: http://archive.espec.ws/section429/file8886.html
 
 ## Pinout
 
