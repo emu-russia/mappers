@@ -17,7 +17,7 @@ The schematic shows the implanted mask transistors conventionally. They are not 
 
 ![ROM2_Lane.jpg](imgstore/ROM2_Lane.jpg)
 
-The row selector is designed like NAND, but the tranisistors in it are also implanted, so it is not known in what order the rows go (But it doesn't matter).
+The row selector is designed like Z-NAND, but the tranisistors in it are also implanted, so it is not known in what order the rows go (But it doesn't matter).
 
 Principle of operation:
 - During Precharge all rows are "recharged".
