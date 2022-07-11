@@ -21,8 +21,10 @@ The row selector is designed like Z-NAND, but the tranisistors in it are also im
 
 Principle of operation:
 - During Precharge all rows are "recharged".
-- During the value issuing - the row that is selected is connected to GND, so that the group of Word-transistors turns into 18-NAND.
-- The value bit of the row goes to the collecting 3-NAND. If the word bit value is `0`, then the 3-NAND outputs a value of `1`. If the word bit value is `1`, then 3-NAND outputs a value of `0`. Those rows which do not participate return `1` due to the Precharge. This is to make 3-NAND work with a value of `1`, for the row that is participating.
+- During the value issuing - the row that is selected is connected to GND, so that the group of Word-transistors turns into large NAND.
+- The bit value of the row goes to the collecting 3-NAND. If the word bit value is `0`, then the 3-NAND outputs a value of `1`. If the word bit value is `1`, then 3-NAND outputs a value of `0`. Those rows which do not participate return `1` due to the Precharge. This is to make 3-NAND work with a value of `1`, for the row that is participating.
+
+3-NAND is connected to the CMOS latch (the value is stored as capacity on the inverter gate, marked with a green area). From the latch the value goes to another inverter for the complement circuit, which is further down.
 
 ## Column Decoder
 
