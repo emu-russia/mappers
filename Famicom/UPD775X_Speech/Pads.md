@@ -1,6 +1,6 @@
 # Terminals
 
-For audio terminals, see the DAC section.
+For audio terminals, see the [DAC](DAC.md) section.
 
 ## I0-I7 (Message Select Code)
 
@@ -10,6 +10,10 @@ of the ST input. Unused pins should be grounded. In
 standby mode, these pins should be set high or low. If 
 they are biased at or near typical CMOS switch input, 
 they will drain excess current. 
+
+![Pad_IX](imgstore/Pad_IX.jpg)
+
+The circuit is not like the description, because according to the schematic the terminals are `InOut`. The [IX Buffer](IXBuf.md) logic also contains output transistors AND input transistors.
 
 ## #CS (Chip Select)
 
