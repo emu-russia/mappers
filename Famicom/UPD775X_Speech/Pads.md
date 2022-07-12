@@ -51,3 +51,7 @@ oscillator at 640 kHz.
 Pins X1 and X2 should be connected to a 640 kHz 
 ceramic oscillator. In standby mode, X1 goes low, and 
 X2 goes high.
+
+![Pad_X1_X2](imgstore/Pad_X1_X2.jpg)
+
+According to the circuit, everything corresponds to the description. Those two "molting pythons" are a relaxation oscillator. How it works makes no sense to go into details, since this is a scary area of electronics that starts with "anal" (better not even to google).
