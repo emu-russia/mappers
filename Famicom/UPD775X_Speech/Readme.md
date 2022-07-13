@@ -51,7 +51,7 @@ systems.
 - [ROM Buffer](ROMBuf.md)
 - [DAC](DAC.md)
 - [ROM2 - Microcode??](ROM2QuestionQuestionMark.md)
-- [Unknown module M1 - Reset/Busy Control?](M1.md)
+- [Unknown module M1 - Reset/Busy](M1.md)
 - [Unknown module M2 - Volume Register?](M2.md)
 - [Unknown module M3](M3.md)
 - [Unknown module M4](M4.md)
