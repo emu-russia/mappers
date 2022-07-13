@@ -38,6 +38,10 @@ another ST will not be accepted. In standby mode,
 BUSY becomes high impedance. This is an active low 
 output. 
 
+![Pad_BUSY](imgstore/Pad_BUSY.jpg)
+
+The output pad receives 2 complementary signals `BUSY` and `nBUSY`.
+
 ## #RESET (Reset)
 
 The RESET input initializes the chip. Use RESET 
@@ -45,7 +49,9 @@ following power-up to abort speech synthesis or to
 release standby mode. RESET must remain low at least 
 12 oscillator clocks. At power-up or when recovering 
 from standby mode, RESET must remain low at least 1 2 
-more clocks after clock oscillation stabilizes. 
+more clocks after clock oscillation stabilizes.
+
+![Pad_RESET](imgstore/Pad_RESET.jpg)
 
 ## X1,X2 (Clock)
 
