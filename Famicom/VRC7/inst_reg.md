@@ -1,8 +1,8 @@
 # Разряд регистра инструментов
 
-[inst_reg_tran](imgstore/inst_reg_tran.png)
+![inst_reg_tran](imgstore/inst_reg_tran.png)
 
-[inst_reg](imgstore/inst_reg.png)
+![inst_reg](imgstore/inst_reg.png)
 
 Ситуация со сбросом:
 - Если значение DLatch равно 0 и res 1, то верхнее плечо инвертируемого буфера открывается и выход равен 0.
