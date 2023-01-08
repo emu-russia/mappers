@@ -672,7 +672,7 @@
       <a name="facing" val="west"/>
       <a name="label" val="PRG_A"/>
       <a name="output" val="true"/>
-      <a name="width" val="8"/>
+      <a name="width" val="6"/>
     </comp>
     <comp lib="0" loc="(3520,60)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -38794,14 +38794,26 @@
       <a name="appearance" val="NewPins"/>
       <a name="label" val="m2"/>
     </comp>
+    <comp lib="0" loc="(1620,1790)" name="Splitter">
+      <a name="appear" val="right"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="0"/>
+      <a name="bit6" val="none"/>
+      <a name="bit7" val="none"/>
+      <a name="fanout" val="1"/>
+      <a name="incoming" val="8"/>
+    </comp>
     <comp lib="0" loc="(190,470)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="data"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(1910,1770)" name="Constant">
-      <a name="value" val="0xff"/>
-      <a name="width" val="8"/>
+      <a name="value" val="0x3f"/>
+      <a name="width" val="6"/>
     </comp>
     <comp lib="0" loc="(2010,1250)" name="Constant"/>
     <comp lib="0" loc="(2040,1270)" name="Constant">
@@ -38899,7 +38911,7 @@
       <a name="facing" val="west"/>
       <a name="label" val="PRG"/>
       <a name="output" val="true"/>
-      <a name="width" val="8"/>
+      <a name="width" val="6"/>
     </comp>
     <comp lib="0" loc="(4670,60)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -38954,19 +38966,19 @@
     <comp lib="1" loc="(1910,2110)" name="NOT Gate"/>
     <comp lib="1" loc="(1910,2180)" name="NOT Gate"/>
     <comp lib="1" loc="(1940,1810)" name="Controlled Buffer">
-      <a name="width" val="8"/>
+      <a name="width" val="6"/>
     </comp>
     <comp lib="1" loc="(1940,1970)" name="Controlled Buffer">
-      <a name="width" val="8"/>
+      <a name="width" val="6"/>
     </comp>
     <comp lib="1" loc="(1960,1530)" name="NOT Gate"/>
     <comp lib="1" loc="(1970,650)" name="NOT Gate"/>
     <comp lib="1" loc="(1980,1460)" name="NOT Gate"/>
     <comp lib="1" loc="(1980,1770)" name="Controlled Buffer">
-      <a name="width" val="8"/>
+      <a name="width" val="6"/>
     </comp>
     <comp lib="1" loc="(1980,1890)" name="Controlled Buffer">
-      <a name="width" val="8"/>
+      <a name="width" val="6"/>
     </comp>
     <comp lib="1" loc="(1980,580)" name="NOT Gate"/>
     <comp lib="1" loc="(2010,1530)" name="NOT Gate"/>
@@ -38979,16 +38991,16 @@
     <comp lib="1" loc="(2080,1100)" name="NOT Gate"/>
     <comp lib="1" loc="(2080,990)" name="NOT Gate"/>
     <comp lib="1" loc="(2100,1930)" name="Controlled Buffer">
-      <a name="width" val="8"/>
+      <a name="width" val="6"/>
     </comp>
     <comp lib="1" loc="(2130,1850)" name="Controlled Buffer">
-      <a name="width" val="8"/>
+      <a name="width" val="6"/>
     </comp>
     <comp lib="1" loc="(2270,1520)" name="OR Gate">
       <a name="size" val="30"/>
     </comp>
     <comp lib="1" loc="(2300,1890)" name="Buffer">
-      <a name="width" val="8"/>
+      <a name="width" val="6"/>
     </comp>
     <comp lib="1" loc="(2400,1540)" name="AND Gate">
       <a name="inputs" val="4"/>
@@ -39122,9 +39134,9 @@
     <comp loc="(1290,920)" name="chr_reg"/>
     <comp loc="(1750,860)" name="chr_mux"/>
     <comp loc="(1810,560)" name="mapper_reg_bit"/>
-    <comp loc="(1890,1810)" name="chr_reg"/>
-    <comp loc="(1890,1890)" name="chr_reg"/>
-    <comp loc="(1890,1970)" name="chr_reg"/>
+    <comp loc="(1890,1810)" name="prg_reg"/>
+    <comp loc="(1890,1890)" name="prg_reg"/>
+    <comp loc="(1890,1970)" name="prg_reg"/>
     <comp loc="(2270,1250)" name="irq_counter_bit"/>
     <comp loc="(2270,1640)" name="irq_counter_bit"/>
     <comp loc="(2270,440)" name="mapper_reg_bit"/>
@@ -39170,9 +39182,9 @@
     <wire from="(1020,1340)" to="(1070,1340)"/>
     <wire from="(1020,1420)" to="(1020,1500)"/>
     <wire from="(1020,1420)" to="(1070,1420)"/>
-    <wire from="(1020,1500)" to="(1020,1810)"/>
+    <wire from="(1020,1500)" to="(1020,1790)"/>
     <wire from="(1020,1500)" to="(1070,1500)"/>
-    <wire from="(1020,1810)" to="(1640,1810)"/>
+    <wire from="(1020,1790)" to="(1620,1790)"/>
     <wire from="(1020,1850)" to="(1020,1890)"/>
     <wire from="(1020,1890)" to="(1070,1890)"/>
     <wire from="(1020,1910)" to="(1020,2020)"/>
@@ -39345,7 +39357,7 @@
     <wire from="(1620,1970)" to="(1670,1970)"/>
     <wire from="(1630,1820)" to="(1630,1890)"/>
     <wire from="(1630,1890)" to="(1670,1890)"/>
-    <wire from="(1640,1810)" to="(1640,1830)"/>
+    <wire from="(1640,1800)" to="(1640,1830)"/>
     <wire from="(1640,1830)" to="(1640,1910)"/>
     <wire from="(1640,1830)" to="(1670,1830)"/>
     <wire from="(1640,1910)" to="(1640,1990)"/>
@@ -41910,5 +41922,71 @@
     <wire from="(920,170)" to="(920,470)"/>
     <wire from="(950,100)" to="(990,100)"/>
     <wire from="(950,310)" to="(950,1740)"/>
+  </circuit>
+  <circuit name="prg_reg">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="prg_reg"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="16.0"/>
+    <comp lib="0" loc="(1030,50)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="6"/>
+    </comp>
+    <comp lib="0" loc="(130,50)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="write"/>
+    </comp>
+    <comp lib="0" loc="(200,120)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="data"/>
+      <a name="width" val="6"/>
+    </comp>
+    <comp lib="1" loc="(330,160)" name="Controlled Buffer">
+      <a name="width" val="6"/>
+    </comp>
+    <comp lib="1" loc="(330,240)" name="Controlled Buffer">
+      <a name="width" val="6"/>
+    </comp>
+    <comp lib="1" loc="(350,50)" name="NOT Gate"/>
+    <comp lib="1" loc="(350,80)" name="NOT Gate"/>
+    <comp lib="1" loc="(410,80)" name="NOT Gate"/>
+    <comp lib="1" loc="(810,190)" name="NOT Gate">
+      <a name="width" val="6"/>
+    </comp>
+    <comp loc="(690,190)" name="transparent_latch6"/>
+    <comp loc="(960,50)" name="transparent_latch6"/>
+    <wire from="(130,50)" to="(300,50)"/>
+    <wire from="(200,120)" to="(240,120)"/>
+    <wire from="(230,240)" to="(230,300)"/>
+    <wire from="(230,240)" to="(310,240)"/>
+    <wire from="(230,300)" to="(970,300)"/>
+    <wire from="(240,120)" to="(240,160)"/>
+    <wire from="(240,160)" to="(310,160)"/>
+    <wire from="(300,50)" to="(300,80)"/>
+    <wire from="(300,50)" to="(320,50)"/>
+    <wire from="(300,80)" to="(320,80)"/>
+    <wire from="(320,170)" to="(320,210)"/>
+    <wire from="(320,210)" to="(430,210)"/>
+    <wire from="(320,250)" to="(320,260)"/>
+    <wire from="(320,260)" to="(460,260)"/>
+    <wire from="(330,160)" to="(380,160)"/>
+    <wire from="(330,240)" to="(380,240)"/>
+    <wire from="(350,50)" to="(460,50)"/>
+    <wire from="(350,80)" to="(380,80)"/>
+    <wire from="(380,160)" to="(380,190)"/>
+    <wire from="(380,190)" to="(380,240)"/>
+    <wire from="(380,190)" to="(470,190)"/>
+    <wire from="(410,80)" to="(430,80)"/>
+    <wire from="(430,80)" to="(430,210)"/>
+    <wire from="(460,50)" to="(460,260)"/>
+    <wire from="(690,190)" to="(720,190)"/>
+    <wire from="(720,190)" to="(780,190)"/>
+    <wire from="(720,50)" to="(720,190)"/>
+    <wire from="(720,50)" to="(740,50)"/>
+    <wire from="(810,190)" to="(970,190)"/>
+    <wire from="(960,50)" to="(1030,50)"/>
+    <wire from="(970,190)" to="(970,300)"/>
   </circuit>
 </project>
