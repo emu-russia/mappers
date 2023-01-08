@@ -7283,6 +7283,7 @@
       <a name="radix" val="16"/>
       <a name="width" val="10"/>
     </comp>
+    <comp lib="0" loc="(400,80)" name="Constant"/>
     <comp lib="0" loc="(490,1070)" name="Splitter">
       <a name="appear" val="right"/>
       <a name="fanout" val="9"/>
@@ -7765,12 +7766,14 @@
     <wire from="(390,190)" to="(390,920)"/>
     <wire from="(400,200)" to="(1670,200)"/>
     <wire from="(400,200)" to="(400,990)"/>
+    <wire from="(400,80)" to="(430,80)"/>
     <wire from="(410,210)" to="(1820,210)"/>
     <wire from="(410,210)" to="(410,1060)"/>
     <wire from="(420,220)" to="(1970,220)"/>
     <wire from="(420,220)" to="(420,1130)"/>
     <wire from="(430,230)" to="(2120,230)"/>
     <wire from="(430,230)" to="(430,1200)"/>
+    <wire from="(430,80)" to="(430,100)"/>
     <wire from="(440,240)" to="(2270,240)"/>
     <wire from="(440,240)" to="(440,1270)"/>
     <wire from="(450,120)" to="(780,120)"/>
@@ -36428,10 +36431,10 @@
       <a name="size" val="30"/>
     </comp>
     <comp lib="1" loc="(1420,650)" name="NOR Gate">
+      <a name="inputs" val="3"/>
       <a name="size" val="30"/>
     </comp>
     <comp lib="1" loc="(1490,660)" name="OR Gate">
-      <a name="inputs" val="3"/>
       <a name="size" val="30"/>
     </comp>
     <comp lib="1" loc="(1660,890)" name="OR Gate">
@@ -36576,6 +36579,9 @@
     <wire from="(1340,1120)" to="(1380,1120)"/>
     <wire from="(1360,1010)" to="(2850,1010)"/>
     <wire from="(1360,640)" to="(1380,640)"/>
+    <wire from="(1360,650)" to="(1360,710)"/>
+    <wire from="(1360,650)" to="(1380,650)"/>
+    <wire from="(1360,710)" to="(1430,710)"/>
     <wire from="(1380,670)" to="(1380,780)"/>
     <wire from="(1380,670)" to="(1460,670)"/>
     <wire from="(1380,780)" to="(1530,780)"/>
@@ -36583,8 +36589,6 @@
     <wire from="(1420,270)" to="(1480,270)"/>
     <wire from="(1420,390)" to="(1480,390)"/>
     <wire from="(1420,650)" to="(1460,650)"/>
-    <wire from="(1430,660)" to="(1430,710)"/>
-    <wire from="(1430,660)" to="(1460,660)"/>
     <wire from="(1430,710)" to="(1430,960)"/>
     <wire from="(1430,710)" to="(1770,710)"/>
     <wire from="(1460,290)" to="(1460,350)"/>
@@ -37118,7 +37122,7 @@
     <comp lib="1" loc="(1260,190)" name="NOT Gate"/>
     <comp lib="1" loc="(1260,30)" name="NOT Gate"/>
     <comp lib="1" loc="(1290,250)" name="NOT Gate"/>
-    <comp lib="1" loc="(1320,1510)" name="NOR Gate">
+    <comp lib="1" loc="(1310,1510)" name="OR Gate">
       <a name="inputs" val="3"/>
       <a name="size" val="30"/>
     </comp>
@@ -37452,16 +37456,16 @@
     <comp loc="(1100,190)" name="sr_bit"/>
     <comp loc="(1100,30)" name="sr_bit"/>
     <comp loc="(1100,470)" name="sr_bit"/>
+    <wire from="(1000,1060)" to="(1030,1060)"/>
     <wire from="(1000,240)" to="(1000,780)"/>
-    <wire from="(1000,860)" to="(1000,980)"/>
+    <wire from="(1000,860)" to="(1000,1060)"/>
     <wire from="(1000,860)" to="(1260,860)"/>
-    <wire from="(1000,980)" to="(1030,980)"/>
+    <wire from="(1010,1140)" to="(1030,1140)"/>
     <wire from="(1010,290)" to="(1010,790)"/>
     <wire from="(1010,30)" to="(1010,90)"/>
     <wire from="(1010,30)" to="(1100,30)"/>
-    <wire from="(1010,870)" to="(1010,900)"/>
+    <wire from="(1010,870)" to="(1010,1140)"/>
     <wire from="(1010,870)" to="(1250,870)"/>
-    <wire from="(1010,900)" to="(1030,900)"/>
     <wire from="(1020,1020)" to="(1020,1100)"/>
     <wire from="(1020,1020)" to="(1030,1020)"/>
     <wire from="(1020,110)" to="(1020,170)"/>
@@ -37590,13 +37594,13 @@
     <wire from="(1300,780)" to="(1300,1040)"/>
     <wire from="(1310,120)" to="(1310,430)"/>
     <wire from="(1310,120)" to="(1360,120)"/>
+    <wire from="(1310,1510)" to="(1640,1510)"/>
     <wire from="(1310,50)" to="(1310,120)"/>
     <wire from="(1310,50)" to="(1360,50)"/>
     <wire from="(1320,110)" to="(1320,150)"/>
     <wire from="(1320,110)" to="(1360,110)"/>
     <wire from="(1320,150)" to="(1320,440)"/>
     <wire from="(1320,150)" to="(1360,150)"/>
-    <wire from="(1320,1510)" to="(1640,1510)"/>
     <wire from="(1330,190)" to="(1330,250)"/>
     <wire from="(1330,190)" to="(1360,190)"/>
     <wire from="(1360,900)" to="(1390,900)"/>
@@ -38131,27 +38135,27 @@
     <wire from="(950,1550)" to="(1070,1550)"/>
     <wire from="(960,1560)" to="(1070,1560)"/>
     <wire from="(960,1560)" to="(960,1790)"/>
-    <wire from="(970,1060)" to="(990,1060)"/>
-    <wire from="(970,1140)" to="(980,1140)"/>
+    <wire from="(970,1060)" to="(1000,1060)"/>
+    <wire from="(970,1140)" to="(1010,1140)"/>
     <wire from="(970,1620)" to="(1070,1620)"/>
     <wire from="(970,1620)" to="(970,1640)"/>
-    <wire from="(970,900)" to="(1010,900)"/>
-    <wire from="(970,980)" to="(1000,980)"/>
-    <wire from="(980,1140)" to="(1030,1140)"/>
+    <wire from="(970,900)" to="(980,900)"/>
+    <wire from="(970,980)" to="(990,980)"/>
     <wire from="(980,1640)" to="(1070,1640)"/>
     <wire from="(980,1640)" to="(980,1780)"/>
     <wire from="(980,510)" to="(1060,510)"/>
     <wire from="(980,800)" to="(1070,800)"/>
     <wire from="(980,800)" to="(980,840)"/>
     <wire from="(980,840)" to="(1280,840)"/>
-    <wire from="(980,840)" to="(980,1140)"/>
-    <wire from="(990,1060)" to="(1030,1060)"/>
+    <wire from="(980,840)" to="(980,900)"/>
+    <wire from="(980,900)" to="(1030,900)"/>
     <wire from="(990,170)" to="(1020,170)"/>
     <wire from="(990,820)" to="(1100,820)"/>
     <wire from="(990,820)" to="(990,850)"/>
     <wire from="(990,850)" to="(1270,850)"/>
-    <wire from="(990,850)" to="(990,1060)"/>
+    <wire from="(990,850)" to="(990,980)"/>
     <wire from="(990,90)" to="(1010,90)"/>
+    <wire from="(990,980)" to="(1030,980)"/>
   </circuit>
   <circuit name="sr_7bit">
     <a name="appearance" val="logisim_evolution"/>
@@ -43105,7 +43109,8 @@
     <comp loc="(1470,2140)" name="instrument_ctrl"/>
     <comp loc="(1780,1590)" name="data_register"/>
     <comp loc="(2040,660)" name="kon_ctrl"/>
-    <comp loc="(2090,2150)" name="instrument_ym2413"/>
+    <comp loc="(2090,2150)" name="instrument_ds1001"/>
+    <comp loc="(2090,2650)" name="instrument_ym2413"/>
     <comp loc="(2510,1420)" name="sr_bit"/>
     <comp loc="(2620,1420)" name="sr_bit"/>
     <comp loc="(2620,610)" name="registers_extra_latch"/>
