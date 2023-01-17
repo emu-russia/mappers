@@ -34236,13 +34236,13 @@
       <a name="size" val="30"/>
     </comp>
     <comp lib="1" loc="(300,130)" name="NOT Gate"/>
+    <comp lib="1" loc="(300,90)" name="NOT Gate"/>
     <comp lib="1" loc="(370,160)" name="AND Gate">
       <a name="size" val="30"/>
     </comp>
     <comp lib="1" loc="(370,350)" name="NOR Gate">
       <a name="size" val="30"/>
     </comp>
-    <comp lib="1" loc="(460,190)" name="NOT Gate"/>
     <comp lib="1" loc="(500,580)" name="NOR Gate">
       <a name="size" val="30"/>
     </comp>
@@ -34474,7 +34474,7 @@
     <wire from="(2120,40)" to="(2120,680)"/>
     <wire from="(2120,40)" to="(2250,40)"/>
     <wire from="(220,90)" to="(220,220)"/>
-    <wire from="(220,90)" to="(470,90)"/>
+    <wire from="(220,90)" to="(270,90)"/>
     <wire from="(230,100)" to="(530,100)"/>
     <wire from="(230,280)" to="(230,440)"/>
     <wire from="(230,280)" to="(430,280)"/>
@@ -34488,6 +34488,7 @@
     <wire from="(240,420)" to="(420,420)"/>
     <wire from="(240,630)" to="(370,630)"/>
     <wire from="(300,130)" to="(410,130)"/>
+    <wire from="(300,90)" to="(470,90)"/>
     <wire from="(310,210)" to="(330,210)"/>
     <wire from="(310,310)" to="(310,340)"/>
     <wire from="(310,310)" to="(810,310)"/>
@@ -34510,7 +34511,7 @@
     <wire from="(400,360)" to="(420,360)"/>
     <wire from="(410,130)" to="(410,190)"/>
     <wire from="(410,130)" to="(510,130)"/>
-    <wire from="(410,190)" to="(430,190)"/>
+    <wire from="(410,190)" to="(560,190)"/>
     <wire from="(430,230)" to="(430,280)"/>
     <wire from="(430,230)" to="(890,230)"/>
     <wire from="(430,280)" to="(430,290)"/>
@@ -34523,7 +34524,6 @@
     <wire from="(450,590)" to="(450,630)"/>
     <wire from="(450,590)" to="(460,590)"/>
     <wire from="(450,70)" to="(460,70)"/>
-    <wire from="(460,190)" to="(560,190)"/>
     <wire from="(460,250)" to="(460,320)"/>
     <wire from="(460,250)" to="(480,250)"/>
     <wire from="(460,320)" to="(680,320)"/>
@@ -48754,7 +48754,7 @@
     <a name="appearance" val="logisim_evolution"/>
     <a name="circuit" val="test"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="simulationFrequency" val="16.0"/>
+    <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(140,110)" name="Clock"/>
     <comp lib="0" loc="(250,240)" name="Pin">
       <a name="appearance" val="NewPins"/>
