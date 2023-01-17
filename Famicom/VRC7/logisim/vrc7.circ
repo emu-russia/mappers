@@ -739,7 +739,7 @@
     <comp lib="1" loc="(550,1940)" name="NOT Gate">
       <a name="width" val="8"/>
     </comp>
-    <comp lib="8" loc="(199,25)" name="Text">
+    <comp lib="8" loc="(195,25)" name="Text">
       <a name="text" val="Yamaha DS1001 (VRC7)"/>
     </comp>
     <comp loc="(1030,2580)" name="rhythm_ctrl1"/>
@@ -31545,7 +31545,7 @@
       <a name="width" val="10"/>
     </comp>
     <comp lib="1" loc="(170,380)" name="NOT Gate"/>
-    <comp lib="1" loc="(280,350)" name="AND Gate">
+    <comp lib="1" loc="(280,350)" name="OR Gate">
       <a name="inputs" val="3"/>
       <a name="size" val="30"/>
     </comp>
@@ -31654,16 +31654,17 @@
     <wire from="(1110,240)" to="(1120,240)"/>
     <wire from="(1110,340)" to="(1150,340)"/>
     <wire from="(1120,110)" to="(1120,240)"/>
+    <wire from="(1120,240)" to="(1120,250)"/>
     <wire from="(1120,240)" to="(1140,240)"/>
-    <wire from="(1130,110)" to="(1130,170)"/>
-    <wire from="(1130,170)" to="(1130,200)"/>
-    <wire from="(1130,170)" to="(1150,170)"/>
+    <wire from="(1120,250)" to="(1200,250)"/>
+    <wire from="(1130,110)" to="(1130,200)"/>
     <wire from="(1130,200)" to="(1180,200)"/>
     <wire from="(1130,210)" to="(1130,220)"/>
     <wire from="(1130,220)" to="(1140,220)"/>
     <wire from="(1140,110)" to="(1140,140)"/>
     <wire from="(1140,140)" to="(1160,140)"/>
-    <wire from="(1150,110)" to="(1150,170)"/>
+    <wire from="(1150,110)" to="(1150,190)"/>
+    <wire from="(1150,190)" to="(1200,190)"/>
     <wire from="(1150,270)" to="(1150,340)"/>
     <wire from="(1160,110)" to="(1160,140)"/>
     <wire from="(1160,140)" to="(1170,140)"/>
@@ -31677,6 +31678,7 @@
     <wire from="(120,570)" to="(120,700)"/>
     <wire from="(120,570)" to="(150,570)"/>
     <wire from="(120,700)" to="(150,700)"/>
+    <wire from="(1200,190)" to="(1200,250)"/>
     <wire from="(1270,70)" to="(1310,70)"/>
     <wire from="(130,230)" to="(130,380)"/>
     <wire from="(130,230)" to="(190,230)"/>
@@ -31794,8 +31796,6 @@
     <wire from="(640,230)" to="(640,440)"/>
     <wire from="(640,230)" to="(670,230)"/>
     <wire from="(640,440)" to="(730,440)"/>
-    <wire from="(640,90)" to="(640,120)"/>
-    <wire from="(640,90)" to="(890,90)"/>
     <wire from="(650,320)" to="(650,430)"/>
     <wire from="(650,320)" to="(670,320)"/>
     <wire from="(650,430)" to="(1590,430)"/>
@@ -31822,6 +31822,8 @@
     <wire from="(740,200)" to="(740,250)"/>
     <wire from="(740,200)" to="(760,200)"/>
     <wire from="(740,470)" to="(740,610)"/>
+    <wire from="(740,90)" to="(740,200)"/>
+    <wire from="(740,90)" to="(890,90)"/>
     <wire from="(750,220)" to="(750,260)"/>
     <wire from="(750,220)" to="(760,220)"/>
     <wire from="(750,260)" to="(860,260)"/>
@@ -42645,7 +42647,7 @@
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="high"/>
     </comp>
-    <comp lib="8" loc="(308,1538)" name="Text">
+    <comp lib="8" loc="(305,1535)" name="Text">
       <a name="text" val="guesswork..."/>
     </comp>
     <comp loc="(220,520)" name="sr_bit"/>
@@ -43044,7 +43046,6 @@
       <a name="facing" val="west"/>
       <a name="label" val="XO"/>
       <a name="output" val="true"/>
-      <a name="radix" val="16"/>
     </comp>
     <comp lib="0" loc="(3590,210)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -43096,7 +43097,7 @@
     <comp lib="1" loc="(550,1590)" name="NOT Gate">
       <a name="width" val="8"/>
     </comp>
-    <comp lib="8" loc="(133,18)" name="Text">
+    <comp lib="8" loc="(130,15)" name="Text">
       <a name="text" val="Yamaha YM2413"/>
     </comp>
     <comp loc="(1030,2230)" name="rhythm_ctrl1"/>
@@ -48753,7 +48754,7 @@
     <a name="appearance" val="logisim_evolution"/>
     <a name="circuit" val="test"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="simulationFrequency" val="2048000.0"/>
+    <a name="simulationFrequency" val="16.0"/>
     <comp lib="0" loc="(140,110)" name="Clock"/>
     <comp lib="0" loc="(250,240)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -48841,13 +48842,11 @@
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
-      <a name="radix" val="16"/>
     </comp>
     <comp lib="0" loc="(780,320)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
-      <a name="radix" val="16"/>
     </comp>
     <comp lib="0" loc="(790,500)" name="Constant"/>
     <comp lib="0" loc="(790,510)" name="Constant">
