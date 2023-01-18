@@ -37489,7 +37489,9 @@
     <wire from="(1020,1350)" to="(1480,1350)"/>
     <wire from="(1020,1420)" to="(1020,1500)"/>
     <wire from="(1020,1420)" to="(1070,1420)"/>
+    <wire from="(1020,1500)" to="(1020,1630)"/>
     <wire from="(1020,1500)" to="(1070,1500)"/>
+    <wire from="(1020,1630)" to="(1070,1630)"/>
     <wire from="(1020,170)" to="(1020,190)"/>
     <wire from="(1020,190)" to="(1100,190)"/>
     <wire from="(1020,810)" to="(1020,940)"/>
@@ -38137,8 +38139,6 @@
     <wire from="(940,150)" to="(940,160)"/>
     <wire from="(940,160)" to="(950,160)"/>
     <wire from="(940,1610)" to="(1070,1610)"/>
-    <wire from="(940,1610)" to="(940,1630)"/>
-    <wire from="(940,1630)" to="(1070,1630)"/>
     <wire from="(940,180)" to="(940,190)"/>
     <wire from="(940,180)" to="(950,180)"/>
     <wire from="(940,70)" to="(940,80)"/>
@@ -42997,7 +42997,7 @@
     <a name="appearance" val="logisim_evolution"/>
     <a name="circuit" val="ym2413"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="simulationFrequency" val="64.0"/>
+    <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(120,220)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="XI"/>
