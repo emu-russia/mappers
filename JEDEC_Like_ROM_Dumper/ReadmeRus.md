@@ -22,4 +22,8 @@ https://www.jammarcade.net/1mbit-eprom-confusion-jedec-vs-non-jedec/
 
 С форматом дампа разберётесь сами.
 
+Дамп для проверки можно грузить в PPUPlayer:
+
+![CHR.png](CHR.png)
+
 TODO: Интерливнутый дамп по 1 биту шины данных с последующим деинтерливом.
