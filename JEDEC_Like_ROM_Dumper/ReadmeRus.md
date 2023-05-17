@@ -4,6 +4,8 @@
 
 ![IMG_9821.jpg](IMG_9821.jpg)
 
+VPP и #PGM трогать не надо, пусть болтаются.
+
 Нужно учитывать что иногда ромы бывают не совсем JEDEC:
 
 ![jedec-nonjedec.jpg](jedec-nonjedec.jpg)
