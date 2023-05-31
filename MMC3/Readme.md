@@ -1,6 +1,6 @@
 # MMC3
 
-![MMC3B_top.jpg](imgstore\MMC3B_top.jpg)
+![MMC3B_top.jpg](imgstore/MMC3B_top.jpg)
 
 Reconstructing the MMC3 circuit.
 
