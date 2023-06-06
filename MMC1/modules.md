@@ -4,6 +4,6 @@
 
 ![logic_cell.jpg](imgstore/logic_cell.jpg)
 
-## not
+## buf
 
-![not.jpg](imgstore/not.jpg)
+![buf.jpg](imgstore/buf.jpg)
