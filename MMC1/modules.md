@@ -78,3 +78,8 @@ Constant generator (`1'b0` / `1'b1`).
 Strong not.
 
 ![not3_topo.jpg](imgstore/not3_topo.jpg)
+
+## 3-or
+
+|![3or_topo.jpg](imgstore/3or_topo.jpg)|![3or_tran.jpg](imgstore/3or_tran.jpg)|
+|---|---|
