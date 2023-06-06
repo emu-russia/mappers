@@ -45,3 +45,17 @@ Strong not.
 Strong buf. Can act as transparent DLatch (with gate memory), but nyet confirmed.
 
 ![buf2_topo.jpg](imgstore/buf2_topo.jpg)
+
+## latch
+
+Static latch. Can be used as register bit.
+
+|![latch_topo.jpg](imgstore/latch_topo.jpg)|![latch_tran.jpg](imgstore/latch_tran.jpg)|
+|---|---|
+
+## 33-aon
+
+Comb. "three+three AND to OR NON-inverting".
+
+|![33aon_topo.jpg](imgstore/33aon_topo.jpg)|![33aon_tran.jpg](imgstore/33aon_tran.jpg)|![33aon_logisim.jpg](imgstore/33aon_logisim.jpg)|
+|---|---|---|
