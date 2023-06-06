@@ -19,3 +19,13 @@ Posedge DFF.
 
 |![nor_topo.jpg](imgstore/nor_topo.jpg)|![nor_tran.jpg](imgstore/nor_tran.jpg)|
 |---|---|
+
+## not
+
+|![not_topo.jpg](imgstore/not_topo.jpg)|![not_tran.jpg](imgstore/not_tran.jpg)|
+|---|---|
+
+## nand
+
+|![nand_topo.jpg](imgstore/nand_topo.jpg)|![nand_tran.jpg](imgstore/nand_tran.jpg)|
+|---|---|
