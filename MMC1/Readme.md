@@ -1,9 +1,9 @@
 # MMC1
 
-![MMC1B2_top.jpg](imgstore/MMC1B2_top.jpg)
+![MMC1A_Fused_sm.jpg](imgstore/MMC1A_Fused_sm.jpg)
 
 Reconstructing the MMC1 circuit.
 
 - 2 metal layers
-- Pockets?
-- 6 rows of cells
+- P-Pockets
+- 5 rows of cells (flip symmetry)
