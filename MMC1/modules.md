@@ -29,3 +29,19 @@ Posedge DFF.
 
 |![nand_topo.jpg](imgstore/nand_topo.jpg)|![nand_tran.jpg](imgstore/nand_tran.jpg)|
 |---|---|
+
+## or
+
+![or_topo.jpg](imgstore/or_topo.jpg)
+
+## not2
+
+Strong not.
+
+![not2_topo.jpg](imgstore/not2_topo.jpg)
+
+## buf2
+
+Strong buf. Can act as transparent DLatch (with gate memory), but nyet confirmed.
+
+![buf2_topo.jpg](imgstore/buf2_topo.jpg)
