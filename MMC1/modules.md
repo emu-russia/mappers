@@ -14,3 +14,8 @@ Posedge DFF.
 
 |![dffpos_topo.jpg](imgstore/dffpos_topo.jpg)|![dffpos_tran.jpg](imgstore/dffpos_tran.jpg)|![dffpos_logisim.jpg](imgstore/dffpos_logisim.jpg)|
 |---|---|---|
+
+## nor
+
+|![nor_topo.jpg](imgstore/nor_topo.jpg)|![nor_tran.jpg](imgstore/nor_tran.jpg)|
+|---|---|
