@@ -72,3 +72,9 @@ Posedge DFF with async #reset.
 Constant generator (`1'b0` / `1'b1`).
 
 ![const_topo.jpg](imgstore/const_topo.jpg)
+
+## not3
+
+Strong not.
+
+![not3_topo.jpg](imgstore/not3_topo.jpg)
