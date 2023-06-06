@@ -66,3 +66,9 @@ Posedge DFF with async #reset.
 
 |![dffrpos_topo.jpg](imgstore/dffrpos_topo.jpg)|![dffrpos_tran.jpg](imgstore/dffrpos_tran.jpg)|![dffrpos_logisim.jpg](imgstore/dffrpos_logisim.jpg)|
 |---|---|---|
+
+## const
+
+Constant generator (`1'b0` / `1'b1`).
+
+![const_topo.jpg](imgstore/const_topo.jpg)
