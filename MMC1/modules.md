@@ -59,3 +59,10 @@ Comb. "three+three AND to OR NON-inverting".
 
 |![33aon_topo.jpg](imgstore/33aon_topo.jpg)|![33aon_tran.jpg](imgstore/33aon_tran.jpg)|![33aon_logisim.jpg](imgstore/33aon_logisim.jpg)|
 |---|---|---|
+
+## dffrpos
+
+Posedge DFF with async #reset.
+
+|![dffrpos_topo.jpg](imgstore/dffrpos_topo.jpg)|![dffrpos_tran.jpg](imgstore/dffrpos_tran.jpg)|![dffrpos_logisim.jpg](imgstore/dffrpos_logisim.jpg)|
+|---|---|---|
