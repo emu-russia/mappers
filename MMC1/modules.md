@@ -111,6 +111,13 @@ Posedge DFF with async #reset.
 |![dffrpos_topo.jpg](imgstore/dffrpos_topo.jpg)|![dffrpos_tran.jpg](imgstore/dffrpos_tran.jpg)|![dffrpos_logisim.jpg](imgstore/dffrpos_logisim.jpg)|
 |---|---|---|
 
+### dffrposnq
+
+Posedge DFF with async #reset and additional inverse output (#Q).
+
+|![dffrposnq_topo.jpg](imgstore/dffrposnq_topo.jpg)|![dffrposnq_logisim.jpg](imgstore/dffrposnq_logisim.jpg)|
+|---|---|
+
 ### dffrepos
 
 Posedge DFF with async #reset and Master/Slave enable.
