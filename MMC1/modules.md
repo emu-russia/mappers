@@ -49,6 +49,10 @@ Strong buf. Can act as transparent DLatch (with gate memory), but nyet confirmed
 
 ![or_topo.jpg](imgstore/or_topo.jpg)
 
+### and
+
+![and_topo.jpg](imgstore/and_topo.jpg)
+
 ### 3-or
 
 |![3or_topo.jpg](imgstore/3or_topo.jpg)|![3or_tran.jpg](imgstore/3or_tran.jpg)|
