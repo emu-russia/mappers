@@ -83,3 +83,10 @@ Strong not.
 
 |![3or_topo.jpg](imgstore/3or_topo.jpg)|![3or_tran.jpg](imgstore/3or_tran.jpg)|
 |---|---|
+
+## 22-aon
+
+Comb. "two+two AND to OR NON-inverting".
+
+|![22aon_topo.jpg](imgstore/22aon_topo.jpg)|![22aon_tran.jpg](imgstore/22aon_tran.jpg)|
+|---|---|
