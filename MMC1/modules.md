@@ -97,3 +97,10 @@ Comb. "three+three+three AND to OR NON-inverting".
 
 |![333aon_topo.jpg](imgstore/333aon_topo.jpg)|![333aon_tran.jpg](imgstore/333aon_tran.jpg)|
 |---|---|
+
+## 222-aon
+
+Comb. "two+two+two AND to OR NON-inverting".
+
+|![222aon_topo.jpg](imgstore/222aon_topo.jpg)|![222aon_tran.jpg](imgstore/222aon_tran.jpg)|
+|---|---|
