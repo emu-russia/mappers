@@ -677,4 +677,76 @@
     <wire from="(930,30)" to="(930,320)"/>
     <wire from="(950,340)" to="(1060,340)"/>
   </circuit>
+  <circuit name="oan">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="oan"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="256.0"/>
+    <comp lib="0" loc="(160,110)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="a0"/>
+    </comp>
+    <comp lib="0" loc="(160,150)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="a1"/>
+    </comp>
+    <comp lib="0" loc="(160,220)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="b"/>
+    </comp>
+    <comp lib="0" loc="(420,180)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="x"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="1" loc="(240,130)" name="OR Gate"/>
+    <comp lib="1" loc="(340,180)" name="NAND Gate"/>
+    <comp lib="1" loc="(400,180)" name="NOT Gate"/>
+    <wire from="(160,110)" to="(190,110)"/>
+    <wire from="(160,150)" to="(190,150)"/>
+    <wire from="(160,220)" to="(260,220)"/>
+    <wire from="(240,130)" to="(260,130)"/>
+    <wire from="(260,130)" to="(260,160)"/>
+    <wire from="(260,160)" to="(280,160)"/>
+    <wire from="(260,200)" to="(260,220)"/>
+    <wire from="(260,200)" to="(280,200)"/>
+    <wire from="(340,180)" to="(370,180)"/>
+    <wire from="(400,180)" to="(420,180)"/>
+  </circuit>
+  <circuit name="aon_1">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="aon_1"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="256.0"/>
+    <comp lib="0" loc="(170,140)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="a0"/>
+    </comp>
+    <comp lib="0" loc="(170,180)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="a1"/>
+    </comp>
+    <comp lib="0" loc="(170,230)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="b"/>
+    </comp>
+    <comp lib="0" loc="(430,210)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="x"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="1" loc="(240,160)" name="AND Gate"/>
+    <comp lib="1" loc="(350,210)" name="NOR Gate"/>
+    <comp lib="1" loc="(410,210)" name="NOT Gate"/>
+    <wire from="(170,140)" to="(190,140)"/>
+    <wire from="(170,180)" to="(190,180)"/>
+    <wire from="(170,230)" to="(290,230)"/>
+    <wire from="(240,160)" to="(270,160)"/>
+    <wire from="(270,160)" to="(270,190)"/>
+    <wire from="(270,190)" to="(290,190)"/>
+    <wire from="(350,210)" to="(380,210)"/>
+    <wire from="(410,210)" to="(430,210)"/>
+  </circuit>
 </project>

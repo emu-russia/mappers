@@ -65,6 +65,20 @@ Strong buf. Can act as transparent DLatch (with gate memory), but nyet confirmed
 
 ## Fused Comb
 
+### oan
+
+"OR to AND NON-invering".
+
+|![oan_topo.jpg](imgstore/oan_topo.jpg)|![oan_tran.jpg](imgstore/oan_tran.jpg)|![oan_logisim.jpg](imgstore/oan_logisim.jpg)|
+|---|---|---|
+
+### aon
+
+"AND to OR NON-invering".
+
+|![aon_topo.jpg](imgstore/aon_topo.jpg)|![aon_tran.jpg](imgstore/aon_tran.jpg)|![aon_logisim.jpg](imgstore/aon_logisim.jpg)|
+|---|---|---|
+
 ### 22-aon
 
 "two+two AND to OR NON-inverting".
