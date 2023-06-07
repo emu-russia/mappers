@@ -111,6 +111,15 @@ Posedge DFF with async #reset.
 |![dffrpos_topo.jpg](imgstore/dffrpos_topo.jpg)|![dffrpos_tran.jpg](imgstore/dffrpos_tran.jpg)|![dffrpos_logisim.jpg](imgstore/dffrpos_logisim.jpg)|
 |---|---|---|
 
+### dffrepos
+
+Posedge DFF with async #reset and Master/Slave enable.
+
+ena1 = ena2 for most cases (common Enable).
+
+|![dffrepos_topo.jpg](imgstore/dffrepos_topo.jpg)|![dffrepos_tran.jpg](imgstore/dffrepos_tran.jpg)|![dffrepos_logisim.jpg](imgstore/dffrepos_logisim.jpg)|
+|---|---|---|
+
 ## Misc
 
 ### const
