@@ -102,28 +102,28 @@ Static latch. Can be used as register bit.
 |![latch_topo.jpg](imgstore/latch_topo.jpg)|![latch_tran.jpg](imgstore/latch_tran.jpg)|
 |---|---|
 
-### dffpos
+### dff
 
 Posedge DFF.
 
 |![dffpos_topo.jpg](imgstore/dffpos_topo.jpg)|![dffpos_tran.jpg](imgstore/dffpos_tran.jpg)|![dffpos_logisim.jpg](imgstore/dffpos_logisim.jpg)|
 |---|---|---|
 
-### dffrpos
+### dffr
 
 Posedge DFF with async #reset.
 
 |![dffrpos_topo.jpg](imgstore/dffrpos_topo.jpg)|![dffrpos_tran.jpg](imgstore/dffrpos_tran.jpg)|![dffrpos_logisim.jpg](imgstore/dffrpos_logisim.jpg)|
 |---|---|---|
 
-### dffrposnq
+### dffrnq
 
 Posedge DFF with async #reset and additional inverse output (#Q).
 
 |![dffrposnq_topo.jpg](imgstore/dffrposnq_topo.jpg)|![dffrposnq_logisim.jpg](imgstore/dffrposnq_logisim.jpg)|
 |---|---|
 
-### dffrepos
+### dffre
 
 Posedge DFF with async #reset and Master/Slave enable.
 
