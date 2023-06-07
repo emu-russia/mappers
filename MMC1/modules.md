@@ -106,21 +106,21 @@ Static latch. Can be used as register bit.
 
 Posedge DFF.
 
-|![dffpos_topo.jpg](imgstore/dffpos_topo.jpg)|![dffpos_tran.jpg](imgstore/dffpos_tran.jpg)|![dffpos_logisim.jpg](imgstore/dffpos_logisim.jpg)|
+|![dff_topo.jpg](imgstore/dff_topo.jpg)|![dff_tran.jpg](imgstore/dff_tran.jpg)|![dff_logisim.jpg](imgstore/dff_logisim.jpg)|
 |---|---|---|
 
 ### dffr
 
 Posedge DFF with async #reset.
 
-|![dffrpos_topo.jpg](imgstore/dffrpos_topo.jpg)|![dffrpos_tran.jpg](imgstore/dffrpos_tran.jpg)|![dffrpos_logisim.jpg](imgstore/dffrpos_logisim.jpg)|
+|![dffr_topo.jpg](imgstore/dffr_topo.jpg)|![dffr_tran.jpg](imgstore/dffr_tran.jpg)|![dffr_logisim.jpg](imgstore/dffr_logisim.jpg)|
 |---|---|---|
 
 ### dffrnq
 
 Posedge DFF with async #reset and additional inverse output (#Q).
 
-|![dffrposnq_topo.jpg](imgstore/dffrposnq_topo.jpg)|![dffrposnq_logisim.jpg](imgstore/dffrposnq_logisim.jpg)|
+|![dffrnq_topo.jpg](imgstore/dffrnq_topo.jpg)|![dffrnq_logisim.jpg](imgstore/dffrnq_logisim.jpg)|
 |---|---|
 
 ### dffre
@@ -129,7 +129,7 @@ Posedge DFF with async #reset and Master/Slave enable.
 
 ena1 = ena2 for most cases (common Enable).
 
-|![dffrepos_topo.jpg](imgstore/dffrepos_topo.jpg)|![dffrepos_tran.jpg](imgstore/dffrepos_tran.jpg)|![dffrepos_logisim.jpg](imgstore/dffrepos_logisim.jpg)|
+|![dffre_topo.jpg](imgstore/dffre_topo.jpg)|![dffre_tran.jpg](imgstore/dffre_tran.jpg)|![dffre_logisim.jpg](imgstore/dffre_logisim.jpg)|
 |---|---|---|
 
 ## Misc
