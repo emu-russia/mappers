@@ -10,12 +10,21 @@ Reconstructing the MMC1 circuit.
 - 2 metal layers
 - P-Pockets
 - 5 rows of cells (flip symmetry)
+- Total cells count: 142
+
+## Principle of Operation
+
+See: https://www.nesdev.org/wiki/MMC1
 
 ## Map
 
 ![map.jpg](imgstore/map.jpg)
 
-TBD: Double Check.
+## Netlist
+
+![netlist](imgstore/netlist.png)
+
+WIP.
 
 ## Datasets
 
