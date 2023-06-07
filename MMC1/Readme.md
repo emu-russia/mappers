@@ -15,7 +15,7 @@ Reconstructing the MMC1 circuit.
 
 ![map.jpg](imgstore/map.jpg)
 
-TBD.
+TBD: Double Check.
 
 ## Datasets
 
