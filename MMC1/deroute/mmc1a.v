@@ -182,7 +182,6 @@ module mmc1a (  x5, x2, x4, x3, x7, x9, x8, x6, a8, a9, a0, a3, a7, a4, a5, x0, 
 	wire w155;
 	wire w156;
 	wire w157;
-	wire w158;
 
 	assign x5 = w15;
 	assign x2 = w16;
@@ -342,7 +341,7 @@ module mmc1a (  x5, x2, x4, x3, x7, x9, x8, x6, a8, a9, a0, a3, a7, a4, a5, x0, 
 	mmc1a_22aon g131 (.a0(w22), .a1(w29), .b0(w23), .b1(w139), .x(w18) );
 	mmc1a_22aon g132 (.a0(w22), .a1(w28), .b0(w23), .b1(w137), .x(w17) );
 	mmc1a_buf g133 (.a(w24), .x(w98) );
-	mmc1a_not g134 (.a(w157), .x(w143) );
+	mmc1a_not g134 (.a(w24), .x(w143) );
 	mmc1a_22aon g135 (.a0(w22), .a1(w144), .b0(w138), .b1(w23), .x(w19) );
 	mmc1a_22aon g136 (.a0(w22), .a1(w146), .b0(w23), .b1(w140), .x(w141) );
 	mmc1a_not2 g137 (.a(w94), .x(w145) );
