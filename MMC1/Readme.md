@@ -26,7 +26,7 @@ See: https://www.nesdev.org/wiki/MMC1
 
 ## Back from HDL
 
-![mmc1a](deroute/mmc1a.png)
+![mmc1a_annotated](deroute/mmc1a_annotated.png)
 
 ## Datasets
 

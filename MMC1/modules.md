@@ -128,6 +128,12 @@ Posedge DFF.
 |![dff_topo.jpg](imgstore/dff_topo.jpg)|![dff_tran.jpg](imgstore/dff_tran.jpg)|![dff_logisim.jpg](imgstore/dff_logisim.jpg)|
 |---|---|---|
 
+### dffnq
+
+Posedge DFF with additional inverse output (#Q)
+
+![dffnq_topo.jpg](imgstore/dffnq_topo.jpg)
+
 ### dffr
 
 Posedge DFF with async #reset.
