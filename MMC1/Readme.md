@@ -24,6 +24,10 @@ See: https://www.nesdev.org/wiki/MMC1
 
 ![netlist](imgstore/netlist.png)
 
+## Back from HDL
+
+![mmc1a](deroute/mmc1a.png)
+
 ## Datasets
 
 https://drive.google.com/drive/u/0/folders/1ATtlSbatuGWMjLzN2JZpvb6VNdjwM-3F

@@ -1,6 +1,6 @@
 # Pads
 
-TBD.
+![pads](imgstore/pads.png)
 
 ## Terminal
 
