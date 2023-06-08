@@ -1,0 +1,5 @@
+by Bregalad:
+
+https://archive.nes.science/nesdev-forums/f9/t8277.xhtml
+
+Use legacy Logisim 2.7.1
