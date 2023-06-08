@@ -24,8 +24,6 @@ See: https://www.nesdev.org/wiki/MMC1
 
 ![netlist](imgstore/netlist.png)
 
-WIP.
-
 ## Datasets
 
 https://drive.google.com/drive/u/0/folders/1ATtlSbatuGWMjLzN2JZpvb6VNdjwM-3F
