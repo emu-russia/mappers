@@ -1,27 +1,27 @@
-module mmc1a (  x5, x2, x4, x3, x7, x9, x8, x6, a8, a9, a0, a3, a7, a4, a5, x0, x1, x10, a2, a1, a6, x11);
+module mmc1a (  SRAM_CE, PRG_A16, PRG_nCE, PRG_A17, CHR_A13, CHR_A15, CHR_A14, CHR_A12, PPU_A11, PPU_A10, M2, nROMSEL, PPU_A12, CPU_D7, CPU_D0, PRG_A14, PRG_A15, CHR_A16, CPU_A14, CPU_A13, CPU_RnW, CIRAM_A10);
 
-	output wire x5;
-	output wire x2;
-	output wire x4;
-	output wire x3;
-	output wire x7;
-	output wire x9;
-	output wire x8;
-	output wire x6;
-	input wire a8;
-	input wire a9;
-	input wire a0;
-	input wire a3;
-	input wire a7;
-	input wire a4;
-	input wire a5;
-	output wire x0;
-	output wire x1;
-	output wire x10;
-	input wire a2;
-	input wire a1;
-	input wire a6;
-	output wire x11;
+	output wire SRAM_CE;
+	output wire PRG_A16;
+	output wire PRG_nCE;
+	output wire PRG_A17;
+	output wire CHR_A13;
+	output wire CHR_A15;
+	output wire CHR_A14;
+	output wire CHR_A12;
+	input wire PPU_A11;
+	input wire PPU_A10;
+	input wire M2;
+	input wire nROMSEL;
+	input wire PPU_A12;
+	input wire CPU_D7;
+	input wire CPU_D0;
+	output wire PRG_A14;
+	output wire PRG_A15;
+	output wire CHR_A16;
+	input wire CPU_A14;
+	input wire CPU_A13;
+	input wire CPU_RnW;
+	output wire CIRAM_A10;
 
 	// Wires
 
@@ -182,28 +182,28 @@ module mmc1a (  x5, x2, x4, x3, x7, x9, x8, x6, a8, a9, a0, a3, a7, a4, a5, x0, 
 	wire w155;
 	wire w156;
 
-	assign x5 = w15;
-	assign x2 = w16;
-	assign x4 = w6;
-	assign x3 = w2;
-	assign x7 = w19;
-	assign x9 = w17;
-	assign x8 = w18;
-	assign x6 = w27;
-	assign w61 = a8;
-	assign w95 = a9;
-	assign w122 = a0;
-	assign w131 = a3;
-	assign w47 = a7;
-	assign w127 = a4;
-	assign w117 = a5;
-	assign x0 = w82;
-	assign x1 = w108;
-	assign x10 = w140;
-	assign w110 = a2;
-	assign w103 = a1;
-	assign w147 = a6;
-	assign x11 = w90;	
+	assign SRAM_CE = w15;
+	assign PRG_A16 = w16;
+	assign PRG_nCE = w6;
+	assign PRG_A17 = w2;
+	assign CHR_A13 = w19;
+	assign CHR_A15 = w17;
+	assign CHR_A14 = w18;
+	assign CHR_A12 = w27;
+	assign w61 = PPU_A11;
+	assign w95 = PPU_A10;
+	assign w122 = M2;
+	assign w131 = nROMSEL;
+	assign w47 = PPU_A12;
+	assign w127 = CPU_D7;
+	assign w117 = CPU_D0;
+	assign PRG_A14 = w82;
+	assign PRG_A15 = w108;
+	assign CHR_A16 = w140;
+	assign w110 = CPU_A14;
+	assign w103 = CPU_A13;
+	assign w147 = CPU_RnW;
+	assign CIRAM_A10 = w90;	
 
 	// Instances
 
