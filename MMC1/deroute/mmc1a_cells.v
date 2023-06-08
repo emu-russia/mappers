@@ -155,6 +155,26 @@ module mmc1a_dffr (  nres, d, cck, ck, q);
 
 endmodule // mmc1a_dffr
 
+module mmc1a_dffnq (  d, cck, ck, q, nq);
+
+	input wire d;
+	input wire cck;
+	input wire ck;
+	output wire q;
+	output wire nq;
+
+	reg val;
+	initial val = `DFF_INIT_VAL;
+
+	always @(posedge ck) begin
+		val = d;
+	end
+
+	assign q = val;	
+	assign nq = ~q;
+
+endmodule // mmc1a_dffnq
+
 module mmc1a_dffrnq (  nres, d, cck, ck, q, nq);
 
 	input wire nres;

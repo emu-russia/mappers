@@ -224,7 +224,7 @@ module mmc1a (  SRAM_CE, PRG_A16, PRG_nCE, PRG_A17, CHR_A13, CHR_A15, CHR_A14, C
 	mmc1a_buf g12 (.a(w126), .x(w136) );
 	mmc1a_dff g13 (.d(w129), .cck(w38), .ck(w39), .q(w86) );
 	mmc1a_nand g14 (.a(w40), .b(w127), .x(w151) );
-	mmc1a_nand g15 (.a(w127), .b(1'b0), .x(w43) );
+	mmc1a_nand g15 (.a(w127), .b(w41), .x(w43) );
 	mmc1a_buf g16 (.a(w134), .x(w128) );
 	mmc1a_not g17 (.a(w149), .x(w127) );
 	mmc1a_buf g18 (.a(w42), .x(w149) );
@@ -262,11 +262,11 @@ module mmc1a (  SRAM_CE, PRG_A16, PRG_nCE, PRG_A17, CHR_A13, CHR_A15, CHR_A14, C
 	mmc1a_aon g50 (.a0(w112), .a1(w113), .b(w157), .x(w111) );
 	mmc1a_buf g51 (.a(w38), .x(w87) );
 	mmc1a_dffr g52 (.nres(w86), .d(w42), .cck(w39), .ck(w38), .q(w36) );
-	mmc1a_dff g53 (.d(w113), .cck(w76), .ck(w75), .q(w37) );
-	mmc1a_dff g54 (.d(w105), .cck(w76), .ck(w75), .q(w40) );
-	mmc1a_nor g55 (.a(1'b0), .b(w151), .x(w108) );
+	mmc1a_dffnq g53 (.d(w113), .cck(w76), .ck(w75), .nq(w37), .q(w116) );
+	mmc1a_dffnq g54 (.d(w105), .cck(w76), .ck(w75), .nq(w40), .q(w41) );
+	mmc1a_nor g55 (.a(w116), .b(w151), .x(w108) );
 	mmc1a_nor g56 (.a(w151), .b(w37), .x(w115) );
-	mmc1a_nor g57 (.a(w43), .b(1'b0), .x(w24) );
+	mmc1a_nor g57 (.a(w43), .b(w116), .x(w24) );
 	mmc1a_buf g58 (.a(w45), .x(w104) );
 	mmc1a_buf g59 (.a(w137), .x(w124) );
 	mmc1a_buf g60 (.a(w46), .x(w42) );
