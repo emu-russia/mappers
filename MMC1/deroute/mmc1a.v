@@ -23,30 +23,7 @@ module mmc1a (  x5, x2, x4, x3, x7, x9, x8, x6, a8, a9, a0, a3, a7, a4, a5, x0, 
 	input wire a6;
 	output wire x11;
 
-	assign x5 = w15;
-	assign x2 = w16;
-	assign x4 = w6;
-	assign x3 = w2;
-	assign x7 = w19;
-	assign x9 = w17;
-	assign x8 = w18;
-	assign x6 = w27;
-	assign w61 = a8;
-	assign w96 = a9;
-	assign w123 = a0;
-	assign w132 = a3;
-	assign w47 = a7;
-	assign w128 = a4;
-	assign w118 = a5;
-	assign x0 = w82;
-	assign x1 = w109;
-	assign x10 = w141;
-	assign w111 = a2;
-	assign w104 = a1;
-	assign w148 = a6;
-	assign x11 = w91;
-
-// Wires
+	// Wires
 
 	wire w1;
 	wire w2;
@@ -207,7 +184,30 @@ module mmc1a (  x5, x2, x4, x3, x7, x9, x8, x6, a8, a9, a0, a3, a7, a4, a5, x0, 
 	wire w157;
 	wire w158;
 
-// Instances
+	assign x5 = w15;
+	assign x2 = w16;
+	assign x4 = w6;
+	assign x3 = w2;
+	assign x7 = w19;
+	assign x9 = w17;
+	assign x8 = w18;
+	assign x6 = w27;
+	assign w61 = a8;
+	assign w96 = a9;
+	assign w123 = a0;
+	assign w132 = a3;
+	assign w47 = a7;
+	assign w128 = a4;
+	assign w118 = a5;
+	assign x0 = w82;
+	assign x1 = w109;
+	assign x10 = w141;
+	assign w111 = a2;
+	assign w104 = a1;
+	assign w148 = a6;
+	assign x11 = w91;	
+
+	// Instances
 
 	mmc1a_not g1 (.a(w123), .x(w154) );
 	mmc1a_and g2 (.a(w116), .b(w123), .x(w15) );
