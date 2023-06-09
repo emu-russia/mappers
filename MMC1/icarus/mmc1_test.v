@@ -49,6 +49,7 @@ module MMC1_Run ();
 		.CIRAM_A10(CIRAM_A10) );
 
 	Bogus_HostIF host_if (
+		.CLK(CLK),
 		.nROMSEL(nROMSEL), 
 		.PPUA(PPUA), 
 		.CPU_D0(CPU_D0), 
@@ -74,8 +75,9 @@ endmodule // MMC1_Run
 
 // We need someone to poke MMC1 I/F from the outside, pretending to be the CPU
 
-module Bogus_HostIF (nROMSEL, PPUA, CPU_D0, CPU_D7, CPU_A13, CPU_A14, CPU_RnW);
+module Bogus_HostIF (CLK, nROMSEL, PPUA, CPU_D0, CPU_D7, CPU_A13, CPU_A14, CPU_RnW);
 
+	input CLK;
 	output nROMSEL;
 	output [2:0] PPUA;
 	output CPU_D0;
@@ -84,12 +86,29 @@ module Bogus_HostIF (nROMSEL, PPUA, CPU_D0, CPU_D7, CPU_A13, CPU_A14, CPU_RnW);
 	output CPU_A14;
 	output CPU_RnW;
 
-	assign nROMSEL = 1'b0;
-	assign PPUA = 3'b0;
-	assign CPU_D0 = 1'b0;
-	assign CPU_D7 = 1'b0;
-	assign CPU_A13 = 1'b0;
-	assign CPU_A14 = 1'b0;
-	assign CPU_RnW = 1'b1;
+	reg [8:0] test_vector [0:32767];
+	reg [15:0] addr_cnt;
+	reg [8:0] test_word;
+	integer i;
+
+	initial begin
+		for (i = 0; i < 32768; i = i + 1) test_vector[i] = 9'h0;
+		$readmemb("mmc1_test_vector.mem", test_vector);
+		test_word <= 0;
+		addr_cnt <= 0;
+	end	
+
+	always @(negedge CLK) begin
+		addr_cnt = addr_cnt + 1;
+		test_word = test_vector[addr_cnt];
+	end	
+
+	assign nROMSEL = test_word[8];
+	assign PPUA = test_word[7:5];
+	assign CPU_D0 = test_word[4];
+	assign CPU_D7 = test_word[3];
+	assign CPU_A13 = test_word[2];
+	assign CPU_A14 = test_word[1];
+	assign CPU_RnW = test_word[0];
 
 endmodule // Bogus_HostIF
