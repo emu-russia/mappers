@@ -28,6 +28,10 @@ See: https://www.nesdev.org/wiki/MMC1
 
 ![mmc1a_annotated](deroute/mmc1a_annotated.png)
 
+## Logisim
+
+![mmc1_logisim](logisim/mmc1_logisim.jpg)
+
 ## Datasets
 
 https://drive.google.com/drive/u/0/folders/1ATtlSbatuGWMjLzN2JZpvb6VNdjwM-3F
