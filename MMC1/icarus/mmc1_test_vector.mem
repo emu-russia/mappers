@@ -1,0 +1,14 @@
+// The values will be active throughout the M2 cycle
+// msb -> lsb: nROMSEL, PPUA[2:0], CPU_D0, CPU_D7, CPU_A13, CPU_A14, CPU_RnW
+
+// Padding
+
+0_000_00_00_0  		// Skipped by negedge circuitry nature
+0_000_00_00_0 		// Cycle 0
+0_000_00_00_0 		// Cycle 1
+0_000_00_00_0		// Cycle 2
+
+// Cycle 3..
+// Add more of your experiments with MMC1
+
+1_000_00_00_0
