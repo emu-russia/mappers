@@ -4,7 +4,7 @@
 module MMC1_Run ();
 
 	reg CLK;
-	always #1 CLK = ~CLK;
+	always #8 CLK = ~CLK;
 
 	// MMC1 -> Board
 
@@ -58,6 +58,34 @@ module MMC1_Run ();
 		.CPU_A14(CPU_A14), 
 		.CPU_RnW(CPU_RnW) );
 
+	// MMC1 internals
+
+	wire [4:0] sr;
+	wire [4:0] reg0;
+	wire [4:0] reg1;
+	wire [4:0] reg2;
+	wire [4:0] reg3;
+	wire div_nres;
+	wire decoder_enable;
+	wire Reg0_enable;
+	wire Reg1_enable;
+	wire Reg2_enable;
+	wire Reg3_enable;
+	wire div_nres_int;
+
+	assign sr = {mmc.g81.q,mmc.g82.q,mmc.g99.q,mmc.g98.q,mmc.g92.q};
+	assign reg0 = {mmc.g80.q,mmc.g91.q,mmc.g90.q,mmc.g79.q,mmc.g95.q};
+	assign reg1 = {mmc.g102.q,mmc.g130.q,mmc.g129.q,mmc.g101.q,mmc.g128.q};
+	assign reg2 = {mmc.g97.q,mmc.g93.q,mmc.g96.q,mmc.g94.q,mmc.g121.q};
+	assign reg3 = {mmc.g84.q,mmc.g83.q,mmc.g78.q,mmc.g77.q,mmc.g76.q};
+	assign div_nres = mmc.g13.q;
+	assign decoder_enable = mmc.g17.x;
+	assign Reg0_enable = mmc.g68.x;
+	assign Reg1_enable = mmc.g133.x;
+	assign Reg2_enable = mmc.g118.x;
+	assign Reg3_enable = mmc.g58.x;
+	assign div_nres_int = mmc.g52.q;
+
 	initial begin
 
 		$dumpfile("mmc1_test.vcd");
@@ -92,7 +120,7 @@ module Bogus_HostIF (CLK, nROMSEL, PPUA, CPU_D0, CPU_D7, CPU_A13, CPU_A14, CPU_R
 	integer i;
 
 	initial begin
-		for (i = 0; i < 32768; i = i + 1) test_vector[i] = 9'h0;
+		for (i = 0; i < 32768; i = i + 1) test_vector[i] = 9'b1_000_00_00_0; 	// "nop"
 		$readmemb("mmc1_test_vector.mem", test_vector);
 		test_word <= 0;
 		addr_cnt <= 0;
