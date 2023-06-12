@@ -311,23 +311,25 @@ module mmc1a_dffrnq (  nres, d, cck, ck, q, nq);
 
 endmodule // mmc1a_dffrnq
 
-module mmc1a_dffre (  ena1, d, cck, ck, ena2, nres, q);
+module mmc1a_dffrs (  nset1, d, cck, ck, nset2, nres, q);
 
-	input wire ena1;
+	input wire nset1;
 	input wire d;
 	input wire cck;
 	input wire ck;
-	input wire ena2; 		// not used.
+	input wire nset2; 		// not used.
 	input wire nres;
 	output reg q;
 
 	initial q = `DFF_INIT_VAL;
 
-	always @(posedge ck or negedge nres) begin
+	always @(posedge ck or negedge nres or negedge nset1 or negedge nset2) begin
 		if (!nres)
 			q <= 0;
-		else if (ena1)
+		else if (!nset1)
+			q <= 1;
+		else
 			q <= d;
 	end
 
-endmodule // mmc1a_dffre
+endmodule // mmc1a_dffrs

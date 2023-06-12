@@ -299,8 +299,8 @@ module mmc1a (  SRAM_CE, PRG_A16, PRG_nCE, PRG_A17, CHR_A13, CHR_A15, CHR_A14, C
 	mmc1a_nand g87 (.a(w96), .b(w50), .x(w95) );
 	mmc1a_not g88 (.a(w94), .x(w98) );
 	mmc1a_222aon g89 (.a0(w103), .a1(w101), .b0(w93), .b1(w113), .c0(w90), .c1(w100), .x(w2) );
-	mmc1a_dffre g90 (.ena1(w86), .d(w85), .cck(w83), .ck(w81), .ena2(w86), .nres(w77), .q(w82) );
-	mmc1a_dffre g91 (.ena1(w86), .d(w74), .cck(w83), .ck(w81), .ena2(w86), .nres(w77), .q(w79) );
+	mmc1a_dffrs g90 (.nset1(w86), .d(w85), .cck(w83), .ck(w81), .nset2(w86), .nres(w77), .q(w82) );
+	mmc1a_dffrs g91 (.nset1(w86), .d(w74), .cck(w83), .ck(w81), .nset2(w86), .nres(w77), .q(w79) );
 	mmc1a_dff g92 (.d(w73), .cck(w76), .ck(w75), .q(w35) );
 	mmc1a_latch g93 (.d(w74), .cck(w88), .ck(w138), .q(w139) );
 	mmc1a_latch g94 (.d(w73), .cck(w88), .ck(w138), .q(w140) );

@@ -540,18 +540,18 @@
     <wire from="(930,70)" to="(930,280)"/>
     <wire from="(950,300)" to="(1060,300)"/>
   </circuit>
-  <circuit name="dffre">
+  <circuit name="dffrs">
     <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="dffre"/>
+    <a name="circuit" val="dffrs"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="256.0"/>
     <comp lib="0" loc="(110,110)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="ena1"/>
+      <a name="label" val="nset1"/>
     </comp>
     <comp lib="0" loc="(110,150)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="ena2"/>
+      <a name="label" val="nset2"/>
     </comp>
     <comp lib="0" loc="(110,190)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -600,7 +600,7 @@
       <a name="text" val="async_res"/>
     </comp>
     <comp lib="8" loc="(585,75)" name="Text">
-      <a name="text" val="ena1 = ena2 for most cases"/>
+      <a name="text" val="nset1 = nset2 for most cases"/>
     </comp>
     <comp lib="8" loc="(895,555)" name="Text">
       <a name="text" val="Slave"/>
@@ -811,7 +811,7 @@
     <comp lib="1" loc="(550,500)" name="NOR Gate">
       <a name="label" val="g57"/>
     </comp>
-    <comp lib="8" loc="(225,484)" name="Text">
+    <comp lib="8" loc="(225,480)" name="Text">
       <a name="text" val="ena"/>
     </comp>
     <wire from="(150,220)" to="(180,220)"/>
