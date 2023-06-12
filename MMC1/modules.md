@@ -148,14 +148,16 @@ Posedge DFF with async #reset and additional inverse output (#Q).
 |![dffrnq_topo.jpg](imgstore/dffrnq_topo.jpg)|![dffrnq_logisim.jpg](imgstore/dffrnq_logisim.jpg)|
 |---|---|
 
-### dffre
+### dffrs
 
-Posedge DFF with async #reset and Master/Slave enable.
+Posedge DFF with async #reset and async Master/Slave #set.
 
-ena1 = ena2 for most cases (common Enable).
+#set1 = #set2 for most cases (common #set).
 
-|![dffre_topo.jpg](imgstore/dffre_topo.jpg)|![dffre_tran.jpg](imgstore/dffre_tran.jpg)|![dffre_logisim.jpg](imgstore/dffre_logisim.jpg)|
+|![dffrs_topo.jpg](imgstore/dffrs_topo.jpg)|![dffrs_tran.jpg](imgstore/dffrs_tran.jpg)|![dffrs_logisim.jpg](imgstore/dffrs_logisim.jpg)|
 |---|---|---|
+
+Used for bits 2,3 in register 0 to set during a forced divider reset.
 
 ## Misc
 
