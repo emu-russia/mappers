@@ -152,7 +152,7 @@ Posedge DFF with async #reset and additional inverse output (#Q).
 
 Posedge DFF with async #reset and sync Master/Slave #set.
 
-#set1 = #set2 for most cases (common #set).
+If asynchronous #set is needed, combine #set1 = #set2 (which is what is done in MMC1).
 
 |![dffrs_topo.jpg](imgstore/dffrs_topo.jpg)|![dffrs_tran.jpg](imgstore/dffrs_tran.jpg)|![dffrs_logisim.jpg](imgstore/dffrs_logisim.jpg)|
 |---|---|---|
