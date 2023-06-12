@@ -1,4 +1,4 @@
-# MMC Test Bench
+# MMC1 Test Bench
 
 Install Icarus Verilog. Run mmc1_test. Open .vcd in GTKWave. Add signals for observation as in the picture:
 
