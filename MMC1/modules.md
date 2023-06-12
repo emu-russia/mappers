@@ -150,7 +150,7 @@ Posedge DFF with async #reset and additional inverse output (#Q).
 
 ### dffrs
 
-Posedge DFF with async #reset and async Master/Slave #set.
+Posedge DFF with async #reset and sync Master/Slave #set.
 
 #set1 = #set2 for most cases (common #set).
 
