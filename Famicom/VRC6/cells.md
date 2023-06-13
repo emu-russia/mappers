@@ -4,6 +4,10 @@
 
 ![logic_cell.jpg](imgstore/logic_cell.jpg)
 
+## not
+
+![not_topo.jpg](imgstore/not_topo.jpg)
+
 ## dff
 
 Posedge DFF.
