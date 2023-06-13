@@ -1,5 +1,9 @@
 # Cells
 
+## Logic Cell
+
+![logic_cell.jpg](imgstore/logic_cell.jpg)
+
 ## dff
 
 Posedge DFF.
