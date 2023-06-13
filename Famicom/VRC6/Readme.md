@@ -9,7 +9,11 @@
 Reconstructing the VRC6 circuit.
 
 - ULA by ??? (SLA-7340)
-- 2 metal layers
+- 2 metal layers CMOS
 - N-Pockets
 - 22 rows of cells (? symmetry)
 - Total cells count: ???
+
+## Datasets
+
+https://drive.google.com/drive/u/0/folders/1b24NsfRkVmzIqhkJ8HJMwoWck_qQ7g59
