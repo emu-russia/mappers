@@ -65,3 +65,17 @@ Single Rail Posedge DFF with #Q.
 
 |![nand3_topo.jpg](imgstore/nand3_topo.jpg)|![nand3_tran.jpg](imgstore/nand3_tran.jpg)|
 |---|---|
+
+## and3
+
+Can be configured as and2 (a=1).
+
+|![and3_topo.jpg](imgstore/and3_topo.jpg)|![and3_tran.jpg](imgstore/and3_tran.jpg)|
+|---|---|
+
+## or3
+
+Can be configured as or2 (a=0).
+
+|![or3_topo.jpg](imgstore/or3_topo.jpg)|![or3_tran.jpg](imgstore/or3_tran.jpg)|
+|---|---|
