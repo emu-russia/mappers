@@ -79,3 +79,13 @@ Can be configured as or2 (a=0).
 
 |![or3_topo.jpg](imgstore/or3_topo.jpg)|![or3_tran.jpg](imgstore/or3_tran.jpg)|
 |---|---|
+
+## nand4
+
+|![nand4_topo.jpg](imgstore/nand4_topo.jpg)|![nand4_tran.jpg](imgstore/nand4_tran.jpg)|
+|---|---|
+
+## not2
+
+|![not2_topo.jpg](imgstore/not2_topo.jpg)|![not2_tran.jpg](imgstore/not2_tran.jpg)|
+|---|---|
