@@ -53,3 +53,8 @@ Complementer. Splits single rail CLK into dual rail. Used for DFF.
 
 |![xor_topo.jpg](imgstore/xor_topo.jpg)|![xor_tran.jpg](imgstore/xor_tran.jpg)|![xor_logisim.jpg](imgstore/xor_logisim.jpg)|
 |---|---|---|
+
+## nand3
+
+|![nand3_topo.jpg](imgstore/nand3_topo.jpg)|![nand3_tran.jpg](imgstore/nand3_tran.jpg)|
+|---|---|
