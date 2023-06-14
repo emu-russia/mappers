@@ -39,6 +39,11 @@
 |![nand_topo.jpg](imgstore/nand_topo.jpg)|![nand_tran.jpg](imgstore/nand_tran.jpg)|
 |---|---|
 
+### nor
+
+|![nor_topo.jpg](imgstore/nor_topo.jpg)|![nor_tran.jpg](imgstore/nor_tran.jpg)|
+|---|---|
+
 ### nand3
 
 |![nand3_topo.jpg](imgstore/nand3_topo.jpg)|![nand3_tran.jpg](imgstore/nand3_tran.jpg)|
