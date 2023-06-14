@@ -17,7 +17,7 @@ Posedge DFF.
 
 ## comp
 
-Complementer. Splits single rail CLK into dual rail
+Complementer. Splits single rail CLK into dual rail. Used for DFF.
 
 |![comp_topo.jpg](imgstore/comp_topo.jpg)|![comp_tran.jpg](imgstore/comp_tran.jpg)|
 |---|---|
@@ -47,4 +47,9 @@ Complementer. Splits single rail CLK into dual rail
 4-to-1 mux.
 
 |![mux2_topo.jpg](imgstore/mux2_topo.jpg)|![mux2_tran.jpg](imgstore/mux2_tran.jpg)|![mux2_logisim.jpg](imgstore/mux2_logisim.jpg)|
+|---|---|---|
+
+## xor
+
+|![xor_topo.jpg](imgstore/xor_topo.jpg)|![xor_tran.jpg](imgstore/xor_tran.jpg)|![xor_logisim.jpg](imgstore/xor_logisim.jpg)|
 |---|---|---|

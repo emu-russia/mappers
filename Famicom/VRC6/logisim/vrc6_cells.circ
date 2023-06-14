@@ -286,4 +286,46 @@
     <wire from="(590,360)" to="(640,360)"/>
     <wire from="(700,340)" to="(730,340)"/>
   </circuit>
+  <circuit name="vrc6_xor">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="vrc6_xor"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="256.0"/>
+    <comp lib="0" loc="(100,100)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="a"/>
+    </comp>
+    <comp lib="0" loc="(100,140)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="b"/>
+    </comp>
+    <comp lib="0" loc="(480,200)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="x"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="1" loc="(230,220)" name="NAND Gate"/>
+    <comp lib="1" loc="(310,150)" name="OR Gate"/>
+    <comp lib="1" loc="(410,200)" name="NAND Gate"/>
+    <comp lib="1" loc="(460,200)" name="NOT Gate"/>
+    <wire from="(100,100)" to="(140,100)"/>
+    <wire from="(100,140)" to="(120,140)"/>
+    <wire from="(120,140)" to="(120,240)"/>
+    <wire from="(120,140)" to="(170,140)"/>
+    <wire from="(120,240)" to="(170,240)"/>
+    <wire from="(140,100)" to="(140,200)"/>
+    <wire from="(140,100)" to="(190,100)"/>
+    <wire from="(140,200)" to="(170,200)"/>
+    <wire from="(170,140)" to="(170,170)"/>
+    <wire from="(170,170)" to="(260,170)"/>
+    <wire from="(190,100)" to="(190,130)"/>
+    <wire from="(190,130)" to="(260,130)"/>
+    <wire from="(230,220)" to="(350,220)"/>
+    <wire from="(310,150)" to="(330,150)"/>
+    <wire from="(330,150)" to="(330,180)"/>
+    <wire from="(330,180)" to="(350,180)"/>
+    <wire from="(410,200)" to="(430,200)"/>
+    <wire from="(460,200)" to="(480,200)"/>
+  </circuit>
 </project>
