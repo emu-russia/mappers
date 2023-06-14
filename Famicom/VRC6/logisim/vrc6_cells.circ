@@ -148,9 +148,9 @@
     <wire from="(460,330)" to="(460,380)"/>
     <wire from="(460,330)" to="(540,330)"/>
   </circuit>
-  <circuit name="dmx2">
+  <circuit name="mux2">
     <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="dmx2"/>
+    <a name="circuit" val="mux2"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="256.0"/>
     <comp lib="0" loc="(130,130)" name="Pin">
@@ -202,29 +202,29 @@
     <comp lib="1" loc="(700,340)" name="NAND Gate">
       <a name="inputs" val="4"/>
     </comp>
-    <comp lib="8" loc="(495,84)" name="Text">
-      <a name="text" val="k1"/>
-    </comp>
-    <comp lib="8" loc="(496,116)" name="Text">
+    <comp lib="8" loc="(495,115)" name="Text">
       <a name="text" val="k2"/>
     </comp>
-    <comp lib="8" loc="(496,139)" name="Text">
+    <comp lib="8" loc="(495,135)" name="Text">
       <a name="text" val="k3"/>
     </comp>
-    <comp lib="8" loc="(499,164)" name="Text">
+    <comp lib="8" loc="(495,160)" name="Text">
       <a name="text" val="k4"/>
     </comp>
-    <comp lib="8" loc="(512,437)" name="Text">
+    <comp lib="8" loc="(495,80)" name="Text">
+      <a name="text" val="k1"/>
+    </comp>
+    <comp lib="8" loc="(510,435)" name="Text">
       <a name="text" val="t4"/>
     </comp>
-    <comp lib="8" loc="(515,278)" name="Text">
+    <comp lib="8" loc="(515,195)" name="Text">
+      <a name="text" val="t1"/>
+    </comp>
+    <comp lib="8" loc="(515,275)" name="Text">
       <a name="text" val="t2"/>
     </comp>
-    <comp lib="8" loc="(516,358)" name="Text">
+    <comp lib="8" loc="(515,355)" name="Text">
       <a name="text" val="t3"/>
-    </comp>
-    <comp lib="8" loc="(517,198)" name="Text">
-      <a name="text" val="t1"/>
     </comp>
     <wire from="(130,130)" to="(170,130)"/>
     <wire from="(130,290)" to="(150,290)"/>
