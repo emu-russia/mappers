@@ -22,11 +22,7 @@ Complementer. Splits single rail CLK into dual rail
 |![comp_topo.jpg](imgstore/comp_topo.jpg)|![comp_tran.jpg](imgstore/comp_tran.jpg)|
 |---|---|
 
-## 31-aoi (Weird)
+## 22-aoi
 
-Strange 31-AOI, which has a forbidden state (a0=0, a1=a2=1, b=0), which switches the output to the HighZ state. At the same time the N-MOS part of the circuit is fully consistent with the NMOS variant of the 31-AOI.
-
-|![31aoi_topo.jpg](imgstore/31aoi_topo.jpg)|![31aoi_tran.jpg](imgstore/31aoi_tran.jpg)|![31aoi_logisim.jpg](imgstore/31aoi_logisim.jpg)|
+|![22aoi_topo.jpg](imgstore/22aoi_topo.jpg)|![22aoi_tran.jpg](imgstore/22aoi_tran.jpg)|![22aoi_logisim.jpg](imgstore/22aoi_logisim.jpg)|
 |---|---|---|
-
-I don't know how it works.

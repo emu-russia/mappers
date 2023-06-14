@@ -58,7 +58,7 @@
     <a name="simulationFrequency" val="256.0"/>
     <comp lib="0" loc="(120,150)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="a2"/>
+      <a name="label" val="a0"/>
     </comp>
     <comp lib="0" loc="(120,210)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -66,11 +66,11 @@
     </comp>
     <comp lib="0" loc="(120,300)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="b"/>
+      <a name="label" val="b0"/>
     </comp>
     <comp lib="0" loc="(120,360)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="a0"/>
+      <a name="label" val="b1"/>
     </comp>
     <comp lib="0" loc="(240,130)" name="Power">
       <a name="facing" val="west"/>
@@ -111,8 +111,8 @@
       <a name="selloc" val="bl"/>
       <a name="type" val="n"/>
     </comp>
-    <comp lib="0" loc="(420,340)" name="Transistor">
-      <a name="facing" val="north"/>
+    <comp lib="0" loc="(420,380)" name="Transistor">
+      <a name="facing" val="south"/>
       <a name="selloc" val="bl"/>
       <a name="type" val="n"/>
     </comp>
@@ -135,17 +135,17 @@
     <wire from="(240,180)" to="(240,190)"/>
     <wire from="(240,320)" to="(240,330)"/>
     <wire from="(240,330)" to="(240,340)"/>
-    <wire from="(240,330)" to="(420,330)"/>
+    <wire from="(240,330)" to="(460,330)"/>
     <wire from="(260,150)" to="(400,150)"/>
     <wire from="(260,210)" to="(400,210)"/>
     <wire from="(260,300)" to="(400,300)"/>
     <wire from="(260,360)" to="(400,360)"/>
     <wire from="(420,170)" to="(420,190)"/>
     <wire from="(420,230)" to="(460,230)"/>
-    <wire from="(420,320)" to="(420,330)"/>
-    <wire from="(420,330)" to="(420,340)"/>
-    <wire from="(420,330)" to="(540,330)"/>
+    <wire from="(420,320)" to="(420,340)"/>
     <wire from="(420,380)" to="(460,380)"/>
-    <wire from="(460,230)" to="(460,380)"/>
+    <wire from="(460,230)" to="(460,330)"/>
+    <wire from="(460,330)" to="(460,380)"/>
+    <wire from="(460,330)" to="(540,330)"/>
   </circuit>
 </project>
