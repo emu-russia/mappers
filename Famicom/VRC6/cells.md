@@ -41,3 +41,10 @@ Complementer. Splits single rail CLK into dual rail
 
 |![not4_topo.jpg](imgstore/not4_topo.jpg)|![not4_tran.jpg](imgstore/not4_tran.jpg)|
 |---|---|
+
+## dmx2
+
+2-to-4 demux.
+
+|![dmx2_topo.jpg](imgstore/dmx2_topo.jpg)|![dmx2_tran.jpg](imgstore/dmx2_tran.jpg)|![dmx2_logisim.jpg](imgstore/dmx2_logisim.jpg)|
+|---|---|---|
