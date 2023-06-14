@@ -4,6 +4,13 @@
 
 ![logic_cell.jpg](imgstore/logic_cell.jpg)
 
+- N-Pockets (who cares)
+- P always left
+- mirror symmetry (can be mirrored without swapping N/P)
+- 16 stripes (m1 channels)
+- dual-rails can be inside cell (see dff)
+- configurable (see and3 for example)
+
 ## not
 
 ![not_topo.jpg](imgstore/not_topo.jpg)
