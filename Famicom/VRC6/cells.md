@@ -36,3 +36,8 @@ Complementer. Splits single rail CLK into dual rail
 
 |![buf_topo.jpg](imgstore/buf_topo.jpg)|![buf_tran.jpg](imgstore/buf_tran.jpg)|
 |---|---|
+
+## not4
+
+|![not4_topo.jpg](imgstore/not4_topo.jpg)|![not4_tran.jpg](imgstore/not4_tran.jpg)|
+|---|---|
