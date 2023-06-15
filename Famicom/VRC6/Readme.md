@@ -1,5 +1,7 @@
 # VRC6
 
+Revision 053330 is studied (Madara).
+
 ![package.jpg](imgstore/package.jpg)
 
 ![vrc6_die.jpg](imgstore/vrc6_die.jpg)
