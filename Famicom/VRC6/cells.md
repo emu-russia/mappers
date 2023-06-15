@@ -80,13 +80,20 @@ Can be configured as or2 (a=0).
 |![22aoi_topo.jpg](imgstore/22aoi_topo.jpg)|![22aoi_tran.jpg](imgstore/22aoi_tran.jpg)|![22aoi_logisim.jpg](imgstore/22aoi_logisim.jpg)|
 |---|---|---|
 
-## Plexors
+## Plexers
 
 ### mux2
 
 4-to-1 mux.
 
 |![mux2_topo.jpg](imgstore/mux2_topo.jpg)|![mux2_tran.jpg](imgstore/mux2_tran.jpg)|![mux2_logisim.jpg](imgstore/mux2_logisim.jpg)|
+|---|---|---|
+
+### dec2
+
+2-to-4 decoder with inverse #enable and inverse outputs (#x0-#x3).
+
+|![dec2_topo.jpg](imgstore/dec2_topo.jpg)|![dec2_tran.jpg](imgstore/dec2_tran.jpg)|![dec2_logisim.jpg](imgstore/dec2_logisim.jpg)|
 |---|---|---|
 
 ## Sequential
