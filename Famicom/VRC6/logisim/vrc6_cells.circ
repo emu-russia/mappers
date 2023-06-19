@@ -453,9 +453,9 @@
     <wire from="(600,390)" to="(670,390)"/>
     <wire from="(600,460)" to="(670,460)"/>
   </circuit>
-  <circuit name="dec">
+  <circuit name="dec4">
     <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="dec"/>
+    <a name="circuit" val="dec4"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="256.0"/>
     <comp lib="0" loc="(100,380)" name="Pin">
@@ -476,7 +476,7 @@
     </comp>
     <comp lib="0" loc="(100,540)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="a0"/>
+      <a name="label" val="bin"/>
     </comp>
     <comp lib="0" loc="(760,120)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -505,7 +505,7 @@
     <comp lib="0" loc="(760,280)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
-      <a name="label" val="x0"/>
+      <a name="label" val="bout"/>
       <a name="output" val="true"/>
     </comp>
     <comp lib="1" loc="(420,610)" name="AND Gate"/>
@@ -533,6 +533,12 @@
     <comp lib="1" loc="(490,240)" name="NAND Gate"/>
     <comp lib="1" loc="(490,320)" name="NOR Gate"/>
     <comp lib="1" loc="(490,990)" name="NOR Gate"/>
+    <comp lib="8" loc="(20,509)" name="Text">
+      <a name="text" val="msb"/>
+    </comp>
+    <comp lib="8" loc="(25,389)" name="Text">
+      <a name="text" val="lsb"/>
+    </comp>
     <comp lib="8" loc="(285,990)" name="Text">
       <a name="text" val="k3"/>
     </comp>
@@ -571,6 +577,12 @@
     </comp>
     <comp lib="8" loc="(530,830)" name="Text">
       <a name="text" val="k2"/>
+    </comp>
+    <comp lib="8" loc="(836,128)" name="Text">
+      <a name="text" val="lsb"/>
+    </comp>
+    <comp lib="8" loc="(840,247)" name="Text">
+      <a name="text" val="msb"/>
     </comp>
     <wire from="(100,380)" to="(180,380)"/>
     <wire from="(100,420)" to="(210,420)"/>
@@ -700,9 +712,9 @@
     <wire from="(680,280)" to="(680,1050)"/>
     <wire from="(680,280)" to="(760,280)"/>
   </circuit>
-  <circuit name="dec_opt">
+  <circuit name="dec4_opt">
     <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="dec_opt"/>
+    <a name="circuit" val="dec4_opt"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="256.0"/>
     <comp lib="0" loc="(100,380)" name="Pin">
@@ -748,12 +760,12 @@
     <comp lib="0" loc="(1150,1190)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
-      <a name="label" val="x0"/>
+      <a name="label" val="bout"/>
       <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(120,1210)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="a0"/>
+      <a name="label" val="bin"/>
     </comp>
     <comp lib="0" loc="(1290,250)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -807,13 +819,13 @@
     <comp lib="8" loc="(1500,255)" name="Text">
       <a name="text" val="k1"/>
     </comp>
-    <comp lib="8" loc="(1666,634)" name="Text">
+    <comp lib="8" loc="(1665,630)" name="Text">
       <a name="text" val="= "/>
     </comp>
-    <comp lib="8" loc="(1745,253)" name="Text">
+    <comp lib="8" loc="(1745,250)" name="Text">
       <a name="text" val="="/>
     </comp>
-    <comp lib="8" loc="(305,408)" name="Text">
+    <comp lib="8" loc="(305,405)" name="Text">
       <a name="text" val="k1"/>
     </comp>
     <comp lib="8" loc="(305,605)" name="Text">
@@ -825,7 +837,7 @@
     <comp lib="8" loc="(335,125)" name="Text">
       <a name="text" val="k1"/>
     </comp>
-    <comp lib="8" loc="(405,1268)" name="Text">
+    <comp lib="8" loc="(405,1265)" name="Text">
       <a name="text" val="k1"/>
     </comp>
     <wire from="(100,380)" to="(180,380)"/>

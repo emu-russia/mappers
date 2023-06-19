@@ -89,11 +89,11 @@ Can be configured as or2 (a=0).
 |![mux2_topo.jpg](imgstore/mux2_topo.jpg)|![mux2_tran.jpg](imgstore/mux2_tran.jpg)|![mux2_logisim.jpg](imgstore/mux2_logisim.jpg)|
 |---|---|---|
 
-### dec2
+### dcd2
 
 2-to-4 decoder with inverse #enable and inverse outputs (#x0-#x3).
 
-|![dec2_topo.jpg](imgstore/dec2_topo.jpg)|![dec2_tran.jpg](imgstore/dec2_tran.jpg)|![dec2_logisim.jpg](imgstore/dec2_logisim.jpg)|
+|![dcd2_topo.jpg](imgstore/dcd2_topo.jpg)|![dcd2_tran.jpg](imgstore/dcd2_tran.jpg)|![dcd2_logisim.jpg](imgstore/dcd2_logisim.jpg)|
 |---|---|---|
 
 ## Sequential
@@ -121,19 +121,19 @@ Single Rail Posedge DFF with #Q.
 
 ## Adders
 
-### dec
+### dec4
 
-Decrementer.
+4-bit Decrementer.
 
-Operation: `{x1,x2,x3,x4} = {a1,a2,a3,a4} - {0,0,0,a0}`
+Operation: `{x1,x2,x3,x4},bout = {a1,a2,a3,a4} - bin`
 
-When a0=1, the decrementer works (subtracts one from a).
+bin - borrow in; bout - borrow out.
 
 (a1/x1 - msb).
 
-|![dec_topo.jpg](imgstore/dec_topo.jpg)|![dec_tran.jpg](imgstore/dec_tran.jpg)|![dec_logisim.jpg](imgstore/dec_logisim.jpg)|
+|![dec4_topo.jpg](imgstore/dec4_topo.jpg)|![dec4_tran.jpg](imgstore/dec4_tran.jpg)|![dec4_logisim.jpg](imgstore/dec4_logisim.jpg)|
 |---|---|---|
 
 Untangled circuit:
 
-![dec_logisim2.jpg](imgstore/dec_logisim2.jpg)
+![dec4_logisim2.jpg](imgstore/dec4_logisim2.jpg)
