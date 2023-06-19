@@ -87,6 +87,12 @@ Purpose yet unknown (see Row B). Weird truth table :/
 |![unk1_topo.jpg](imgstore/unk1_topo.jpg)|![unk1_tran.jpg](imgstore/unk1_tran.jpg)|![unk1_logisim.jpg](imgstore/unk1_logisim.jpg)|
 |---|---|---|
 
+Untangled circuit:
+
+![unk1_logisim2.jpg](imgstore/unk1_logisim2.jpg)
+
+Reminds some kind of spare part from the CLA.
+
 ## Plexers
 
 ### mux2
