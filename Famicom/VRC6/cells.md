@@ -119,6 +119,21 @@ Single Rail Posedge DFF with #Q.
 |![dff2_topo.jpg](imgstore/dff2_topo.jpg)|![dff2_tran.jpg](imgstore/dff2_tran.jpg)|
 |---|---|
 
+### reg4
+
+Posedge 4-bit register with selectable input (sel=0: input #d in inverse polarity, sel=1: input d in direct polarity); Q and #Q outputs; Single rail clk.
+
+|![reg4_topo.jpg](imgstore/reg4_topo.jpg)|![reg4_tran.jpg](imgstore/reg4_tran.jpg)|
+|---|---|
+
+Single bit:
+
+![reg4_logisim.jpg](imgstore/reg4_logisim.jpg)
+
+Whole:
+
+![reg4_logisim2.jpg](imgstore/reg4_logisim2.jpg)
+
 ## Adders
 
 ### dec4
