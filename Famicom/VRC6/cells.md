@@ -80,6 +80,13 @@ Can be configured as or2 (a=0).
 |![22aoi_topo.jpg](imgstore/22aoi_topo.jpg)|![22aoi_tran.jpg](imgstore/22aoi_tran.jpg)|![22aoi_logisim.jpg](imgstore/22aoi_logisim.jpg)|
 |---|---|---|
 
+### unk1
+
+Purpose yet unknown (see Row B). Weird truth table :/
+
+|![unk1_topo.jpg](imgstore/unk1_topo.jpg)|![unk1_tran.jpg](imgstore/unk1_tran.jpg)|![unk1_logisim.jpg](imgstore/unk1_logisim.jpg)|
+|---|---|---|
+
 ## Plexers
 
 ### mux2
