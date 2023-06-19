@@ -453,9 +453,9 @@
     <wire from="(600,390)" to="(670,390)"/>
     <wire from="(600,460)" to="(670,460)"/>
   </circuit>
-  <circuit name="unk1">
+  <circuit name="dec">
     <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="unk1"/>
+    <a name="circuit" val="dec"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="256.0"/>
     <comp lib="0" loc="(100,380)" name="Pin">
@@ -700,9 +700,9 @@
     <wire from="(680,280)" to="(680,1050)"/>
     <wire from="(680,280)" to="(760,280)"/>
   </circuit>
-  <circuit name="unk1_opt">
+  <circuit name="dec_opt">
     <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="unk1_opt"/>
+    <a name="circuit" val="dec_opt"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="256.0"/>
     <comp lib="0" loc="(100,380)" name="Pin">

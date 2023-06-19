@@ -80,19 +80,6 @@ Can be configured as or2 (a=0).
 |![22aoi_topo.jpg](imgstore/22aoi_topo.jpg)|![22aoi_tran.jpg](imgstore/22aoi_tran.jpg)|![22aoi_logisim.jpg](imgstore/22aoi_logisim.jpg)|
 |---|---|---|
 
-### unk1
-
-Purpose yet unknown (see Row B). Weird truth table :/
-
-|![unk1_topo.jpg](imgstore/unk1_topo.jpg)|![unk1_tran.jpg](imgstore/unk1_tran.jpg)|![unk1_logisim.jpg](imgstore/unk1_logisim.jpg)|
-|---|---|---|
-
-Untangled circuit:
-
-![unk1_logisim2.jpg](imgstore/unk1_logisim2.jpg)
-
-Reminds some kind of spare part from the CLA.
-
 ## Plexers
 
 ### mux2
@@ -131,3 +118,22 @@ Single Rail Posedge DFF with #Q.
 
 |![dff2_topo.jpg](imgstore/dff2_topo.jpg)|![dff2_tran.jpg](imgstore/dff2_tran.jpg)|
 |---|---|
+
+## Adders
+
+### dec
+
+Decrementer.
+
+Operation: `{x1,x2,x3,x4} = {a1,a2,a3,a4} - {0,0,0,a0}`
+
+When a0=1, the decrementer works (subtracts one from a).
+
+(a1/x1 - msb).
+
+|![dec_topo.jpg](imgstore/dec_topo.jpg)|![dec_tran.jpg](imgstore/dec_tran.jpg)|![dec_logisim.jpg](imgstore/dec_logisim.jpg)|
+|---|---|---|
+
+Untangled circuit:
+
+![dec_logisim2.jpg](imgstore/dec_logisim2.jpg)
