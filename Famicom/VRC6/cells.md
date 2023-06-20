@@ -134,6 +134,17 @@ Whole:
 
 ![reg4_logisim2.jpg](imgstore/reg4_logisim2.jpg)
 
+### latch8
+
+Transparent 8-bit static latch. Single rail clk input. Dual rail clk inside.
+
+|![latch8_topo.jpg](imgstore/latch8_topo.jpg)|![latch8_tran.jpg](imgstore/latch8_tran.jpg)|
+|---|---|
+
+Single bit:
+
+![latch8_logisim.jpg](imgstore/latch8_logisim.jpg)
+
 ## Adders
 
 ### dec4
