@@ -1020,41 +1020,41 @@
     <comp lib="2" loc="(870,300)" name="Multiplexer">
       <a name="selloc" val="tr"/>
     </comp>
-    <comp lib="8" loc="(227,72)" name="Text">
+    <comp lib="8" loc="(225,70)" name="Text">
       <a name="text" val="k1"/>
     </comp>
-    <comp lib="8" loc="(237,462)" name="Text">
+    <comp lib="8" loc="(235,460)" name="Text">
       <a name="text" val="k1"/>
     </comp>
-    <comp lib="8" loc="(385,794)" name="Text">
+    <comp lib="8" loc="(385,790)" name="Text">
       <a name="font" val="SansSerif bold 23"/>
       <a name="text" val="="/>
     </comp>
-    <comp lib="8" loc="(543,279)" name="Text">
+    <comp lib="8" loc="(540,275)" name="Text">
       <a name="text" val="~d"/>
     </comp>
-    <comp lib="8" loc="(553,674)" name="Text">
+    <comp lib="8" loc="(550,670)" name="Text">
       <a name="text" val="~d"/>
     </comp>
-    <comp lib="8" loc="(553,854)" name="Text">
+    <comp lib="8" loc="(550,850)" name="Text">
       <a name="text" val="~d"/>
     </comp>
-    <comp lib="8" loc="(638,411)" name="Text">
+    <comp lib="8" loc="(635,410)" name="Text">
       <a name="text" val="master"/>
     </comp>
-    <comp lib="8" loc="(79,726)" name="Text">
+    <comp lib="8" loc="(75,725)" name="Text">
       <a name="text" val="#d0"/>
     </comp>
-    <comp lib="8" loc="(80,477)" name="Text">
+    <comp lib="8" loc="(80,475)" name="Text">
       <a name="text" val="sel"/>
     </comp>
-    <comp lib="8" loc="(84,756)" name="Text">
+    <comp lib="8" loc="(80,755)" name="Text">
       <a name="text" val="d1"/>
     </comp>
-    <comp lib="8" loc="(898,412)" name="Text">
+    <comp lib="8" loc="(895,410)" name="Text">
       <a name="text" val="slave"/>
     </comp>
-    <comp lib="8" loc="(904,244)" name="Text">
+    <comp lib="8" loc="(900,240)" name="Text">
       <a name="text" val="w3"/>
     </comp>
     <wire from="(1030,250)" to="(1030,370)"/>
@@ -1256,5 +1256,51 @@
     <wire from="(720,510)" to="(730,510)"/>
     <wire from="(730,160)" to="(730,510)"/>
     <wire from="(730,160)" to="(740,160)"/>
+  </circuit>
+  <circuit name="latchbit">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="latchbit"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="256.0"/>
+    <comp lib="0" loc="(160,100)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(160,210)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="d"/>
+    </comp>
+    <comp lib="0" loc="(640,100)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="q"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="1" loc="(220,210)" name="NOT Gate"/>
+    <comp lib="1" loc="(440,270)" name="NOT Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(470,200)" name="NOT Gate"/>
+    <comp lib="1" loc="(610,100)" name="NOT Gate"/>
+    <comp lib="2" loc="(390,200)" name="Multiplexer">
+      <a name="selloc" val="tr"/>
+    </comp>
+    <wire from="(160,100)" to="(370,100)"/>
+    <wire from="(160,210)" to="(190,210)"/>
+    <wire from="(220,210)" to="(360,210)"/>
+    <wire from="(330,190)" to="(330,270)"/>
+    <wire from="(330,190)" to="(360,190)"/>
+    <wire from="(330,270)" to="(370,270)"/>
+    <wire from="(370,100)" to="(370,180)"/>
+    <wire from="(370,270)" to="(370,310)"/>
+    <wire from="(370,270)" to="(440,270)"/>
+    <wire from="(370,310)" to="(560,310)"/>
+    <wire from="(390,200)" to="(440,200)"/>
+    <wire from="(470,200)" to="(510,200)"/>
+    <wire from="(470,270)" to="(510,270)"/>
+    <wire from="(510,200)" to="(510,270)"/>
+    <wire from="(560,100)" to="(560,310)"/>
+    <wire from="(560,100)" to="(580,100)"/>
+    <wire from="(610,100)" to="(640,100)"/>
   </circuit>
 </project>
