@@ -2,11 +2,12 @@
 
 ![package.jpg](imgstore/package.jpg)
 
-![MMC1A_Fused_sm.jpg](imgstore/MMC1A_Fused_sm.jpg)
+![MMC1_Fused_sm.jpg](imgstore/MMC1_Fused_sm.jpg)
 
 Reconstructing the MMC1 circuit.
 
-- ULA by SHARP
+- Revision: MMC1 (letterless)
+- ULA(Gate Array) by SHARP
 - 2 metal layers
 - P-Pockets
 - 5 rows of cells (flip symmetry)
@@ -26,7 +27,7 @@ See: https://www.nesdev.org/wiki/MMC1
 
 ## Back from HDL
 
-![mmc1a_annotated](deroute/mmc1a_annotated.png)
+![mmc1_annotated](deroute/mmc1_annotated.png)
 
 ## Logisim
 

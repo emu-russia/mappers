@@ -24,7 +24,7 @@ module MMC1_Run ();
 	wire CPU_A14;
 	wire CPU_RnW;
 
-	mmc1a mmc (
+	mmc1 mmc (
 		.M2(CLK),
 		.nROMSEL,		
 		.PRG_A14(PRG[0]),

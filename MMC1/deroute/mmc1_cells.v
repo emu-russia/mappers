@@ -13,16 +13,16 @@
 // Delays are necessary due to the fragile internal implementation of MMC1 and delays for M2.
 // As they say: Shit In -> Shit Out.
 
-module mmc1a_not (  a, x);
+module mmc1_not (  a, x);
 
 	input wire a;
 	output wire x;
 
 	not `DELAY (x, a);
 
-endmodule // mmc1a_not
+endmodule // mmc1_not
 
-module mmc1a_and (  a, b, x);
+module mmc1_and (  a, b, x);
 
 	input wire a;
 	input wire b;
@@ -30,9 +30,9 @@ module mmc1a_and (  a, b, x);
 
 	and `DELAY (x, a, b);
 
-endmodule // mmc1a_and
+endmodule // mmc1_and
 
-module mmc1a_or (  a, b, x);
+module mmc1_or (  a, b, x);
 
 	input wire a;
 	input wire b;
@@ -40,36 +40,36 @@ module mmc1a_or (  a, b, x);
 
 	or `DELAY (x, a, b);
 
-endmodule // mmc1a_or
+endmodule // mmc1_or
 
-module mmc1a_not2 (  a, x);
+module mmc1_not2 (  a, x);
 
 	input wire a;
 	output wire x;
 
 	not `DELAY (x, a);
 
-endmodule // mmc1a_not2
+endmodule // mmc1_not2
 
-module mmc1a_buf2 (  a, x);
+module mmc1_buf2 (  a, x);
 
 	input wire a;
 	output wire x;
 
 	buf `DELAY (x, a);
 
-endmodule // mmc1a_buf2
+endmodule // mmc1_buf2
 
-module mmc1a_buf (  a, x);
+module mmc1_buf (  a, x);
 
 	input wire a;
 	output wire x;
 
 	buf `BUF_DELAY (x, a);
 
-endmodule // mmc1a_buf
+endmodule // mmc1_buf
 
-module mmc1a_nand (  a, b, x);
+module mmc1_nand (  a, b, x);
 
 	input wire a;
 	input wire b;
@@ -77,9 +77,9 @@ module mmc1a_nand (  a, b, x);
 
 	nand `DELAY (x, a, b);
 
-endmodule // mmc1a_nand
+endmodule // mmc1_nand
 
-module mmc1a_nor (  a, b, x);
+module mmc1_nor (  a, b, x);
 
 	input wire a;
 	input wire b;
@@ -87,9 +87,9 @@ module mmc1a_nor (  a, b, x);
 
 	nor `DELAY (x, a, b);
 
-endmodule // mmc1a_nor
+endmodule // mmc1_nor
 
-module mmc1a_3or (  a, b, c, x);
+module mmc1_3or (  a, b, c, x);
 
 	input wire a;
 	input wire b;
@@ -98,9 +98,9 @@ module mmc1a_3or (  a, b, c, x);
 
 	or `DELAY (x, a, b, c);
 
-endmodule // mmc1a_3or
+endmodule // mmc1_3or
 
-module mmc1a_aon (  a0, a1, b, x);
+module mmc1_aon (  a0, a1, b, x);
 
 	input wire a0;
 	input wire a1;
@@ -109,9 +109,9 @@ module mmc1a_aon (  a0, a1, b, x);
 
 	assign `DELAY x = (a0&a1) | b;
 
-endmodule // mmc1a_aon
+endmodule // mmc1_aon
 
-module mmc1a_4and (  a, b, c, d, x);
+module mmc1_4and (  a, b, c, d, x);
 
 	input wire a;
 	input wire b;
@@ -121,9 +121,9 @@ module mmc1a_4and (  a, b, c, d, x);
 
 	and `DELAY (x, a, b, c, d);
 
-endmodule // mmc1a_4and
+endmodule // mmc1_4and
 
-module mmc1a_3nand (  a, b, c, x);
+module mmc1_3nand (  a, b, c, x);
 
 	input wire a;
 	input wire b;
@@ -132,9 +132,9 @@ module mmc1a_3nand (  a, b, c, x);
 
 	nand `DELAY (x, a, b, c);
 
-endmodule // mmc1a_3nand
+endmodule // mmc1_3nand
 
-module mmc1a_oan (  a0, a1, b, x);
+module mmc1_oan (  a0, a1, b, x);
 
 	input wire a0;
 	input wire a1;
@@ -143,9 +143,9 @@ module mmc1a_oan (  a0, a1, b, x);
 
 	assign `DELAY x = (a0|a1) & b;
 
-endmodule // mmc1a_oan
+endmodule // mmc1_oan
 
-module mmc1a_33aon (  a0, a1, a2, b0, b1, b2, x);
+module mmc1_33aon (  a0, a1, a2, b0, b1, b2, x);
 
 	input wire a0;
 	input wire a1;
@@ -157,9 +157,9 @@ module mmc1a_33aon (  a0, a1, a2, b0, b1, b2, x);
 
 	assign `DELAY x = (a0&a1&a2) | (b0&b1&b2);
 
-endmodule // mmc1a_33aon
+endmodule // mmc1_33aon
 
-module mmc1a_22aon (  a0, a1, b0, b1, x);
+module mmc1_22aon (  a0, a1, b0, b1, x);
 
 	input wire a0;
 	input wire a1;
@@ -169,9 +169,9 @@ module mmc1a_22aon (  a0, a1, b0, b1, x);
 
 	assign `DELAY x = (a0&a1) | (b0&b1);
 
-endmodule // mmc1a_22aon
+endmodule // mmc1_22aon
 
-module mmc1a_222aon (  a0, a1, b0, b1, c0, c1, x);
+module mmc1_222aon (  a0, a1, b0, b1, c0, c1, x);
 
 	input wire a0;
 	input wire a1;
@@ -183,18 +183,18 @@ module mmc1a_222aon (  a0, a1, b0, b1, c0, c1, x);
 
 	assign `DELAY x = (a0&a1) | (b0&b1) | (c0&c1);
 
-endmodule // mmc1a_222aon
+endmodule // mmc1_222aon
 
-module mmc1a_not3 (  a, x);
+module mmc1_not3 (  a, x);
 
 	input wire a;
 	output wire x;
 
 	not `DELAY (x, a);
 
-endmodule // mmc1a_not3
+endmodule // mmc1_not3
 
-module mmc1a_333aon (  a0, a1, a2, b0, b1, b2, c0, c1, c2, x);
+module mmc1_333aon (  a0, a1, a2, b0, b1, b2, c0, c1, c2, x);
 
 	input wire a0;
 	input wire a1;
@@ -209,9 +209,9 @@ module mmc1a_333aon (  a0, a1, a2, b0, b1, b2, c0, c1, c2, x);
 
 	assign `DELAY x = (a0&a1&a2) | (b0&b1&b2) | (c0&c1&c2);
 
-endmodule // mmc1a_333aon
+endmodule // mmc1_333aon
 
-module mmc1a_const (  q0, q1);
+module mmc1_const (  q0, q1);
 
 	output wire q0;
 	output wire q1;
@@ -219,9 +219,9 @@ module mmc1a_const (  q0, q1);
 	assign q0 = 1'b0;
 	assign q1 = 1'b1;
 
-endmodule // mmc1a_const
+endmodule // mmc1_const
 
-module mmc1a_latch (  d, cck, ck, q);
+module mmc1_latch (  d, cck, ck, q);
 
 	input wire d;
 	input wire cck;
@@ -235,9 +235,9 @@ module mmc1a_latch (  d, cck, ck, q);
 			q <= d;
 	end
 
-endmodule // mmc1a_latch
+endmodule // mmc1_latch
 
-module mmc1a_dff (  d, cck, ck, q);
+module mmc1_dff (  d, cck, ck, q);
 
 	input wire d;
 	input wire cck;
@@ -250,9 +250,9 @@ module mmc1a_dff (  d, cck, ck, q);
 		q <= d;
 	end
 
-endmodule // mmc1a_dff
+endmodule // mmc1_dff
 
-module mmc1a_dffnq (  d, cck, ck, q, nq);
+module mmc1_dffnq (  d, cck, ck, q, nq);
 
 	input wire d;
 	input wire cck;
@@ -268,9 +268,9 @@ module mmc1a_dffnq (  d, cck, ck, q, nq);
 
 	assign nq = ~q;
 
-endmodule // mmc1a_dffnq
+endmodule // mmc1_dffnq
 
-module mmc1a_dffr (  nres, d, cck, ck, q);
+module mmc1_dffr (  nres, d, cck, ck, q);
 
 	input wire nres;
 	input wire d;
@@ -287,9 +287,9 @@ module mmc1a_dffr (  nres, d, cck, ck, q);
 			q <= d;
 	end
 
-endmodule // mmc1a_dffr
+endmodule // mmc1_dffr
 
-module mmc1a_dffrnq (  nres, d, cck, ck, q, nq);
+module mmc1_dffrnq (  nres, d, cck, ck, q, nq);
 
 	input wire nres;
 	input wire d;
@@ -309,9 +309,9 @@ module mmc1a_dffrnq (  nres, d, cck, ck, q, nq);
 
 	assign nq = ~q;
 
-endmodule // mmc1a_dffrnq
+endmodule // mmc1_dffrnq
 
-module mmc1a_dffrs (  nset1, d, cck, ck, nset2, nres, q);
+module mmc1_dffrs (  nset1, d, cck, ck, nset2, nres, q);
 
 	input wire nset1;
 	input wire d;
@@ -332,4 +332,4 @@ module mmc1a_dffrs (  nset1, d, cck, ck, nset2, nres, q);
 			q <= d;
 	end
 
-endmodule // mmc1a_dffrs
+endmodule // mmc1_dffrs
