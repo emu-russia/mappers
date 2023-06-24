@@ -9,7 +9,7 @@ Reconstructing the MMC1 circuit.
 - Revision: MMC1 (letterless)
 - ULA(Gate Array) by SHARP
 - 2 metal layers
-- P-Pockets
+- N-Pockets
 - 5 rows of cells (flip symmetry)
 - Total cells count: 142
 
