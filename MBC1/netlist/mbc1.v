@@ -1,25 +1,25 @@
-module mbc1 (  i7, i8, i6, i5, i9, i11, i10, i1, i2, i3, o1, o2, o3, o4, o5, i4, o6, o7, o8, o9);
+module mbc1 (  D2, D1, D3, D4, D0, n_WR, n_CS, A15, A14, A13, RA14, RA15, RA16, RA17, RA18, n_RESET, RAM_CS, n_RAM_CS, AA14, AA13);
 
-	input wire i7;
-	input wire i8;
-	input wire i6;
-	input wire i5;
-	input wire i9;
-	input wire i11;
-	input wire i10;
-	input wire i1;
-	input wire i2;
-	input wire i3;
-	output wire o1;
-	output wire o2;
-	output wire o3;
-	output wire o4;
-	output wire o5;
-	input wire i4;
-	output wire o6;
-	output wire o7;
-	output wire o8;
-	output wire o9;
+	input wire D2;
+	input wire D1;
+	input wire D3;
+	input wire D4;
+	input wire D0;
+	input wire n_WR;
+	input wire n_CS;
+	input wire A15;
+	input wire A14;
+	input wire A13;
+	output wire RA14;
+	output wire RA15;
+	output wire RA16;
+	output wire RA17;
+	output wire RA18;
+	input wire n_RESET;
+	output wire RAM_CS;
+	output wire n_RAM_CS;
+	output wire AA14;
+	output wire AA13;
 
 	// Wires
 
@@ -100,26 +100,26 @@ module mbc1 (  i7, i8, i6, i5, i9, i11, i10, i1, i2, i3, o1, o2, o3, o4, o5, i4,
 	wire w75;
 	wire w76;
 
-	assign w57 = i7;
-	assign w58 = i8;
-	assign w59 = i6;
-	assign w60 = i5;
-	assign w61 = i9;
-	assign w62 = i11;
-	assign w63 = i10;
-	assign w64 = i1;
-	assign w65 = i2;
-	assign w66 = i3;
-	assign o1 = w67;
-	assign o2 = w68;
-	assign o3 = w69;
-	assign o4 = w70;
-	assign o5 = w71;
-	assign w72 = i4;
-	assign o6 = w73;
-	assign o7 = w74;
-	assign o8 = w75;
-	assign o9 = w76;
+	assign w57 = D2;
+	assign w58 = D1;
+	assign w59 = D3;
+	assign w60 = D4;
+	assign w61 = D0;
+	assign w62 = n_WR;
+	assign w63 = n_CS;
+	assign w64 = A15;
+	assign w65 = A14;
+	assign w66 = A13;
+	assign RA14 = w67;
+	assign RA15 = w68;
+	assign RA16 = w69;
+	assign RA17 = w70;
+	assign RA18 = w71;
+	assign w72 = n_RESET;
+	assign RAM_CS = w73;
+	assign n_RAM_CS = w74;
+	assign AA14 = w75;
+	assign AA13 = w76;
 
 	// Instances
 

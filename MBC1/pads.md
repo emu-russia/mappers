@@ -1,4 +1,3 @@
 # Bonding Pads
 
-Pinout: https://wiki.tauwasser.eu/view/MBC1
-
+![pads](/imgstore/pads.jpg)
