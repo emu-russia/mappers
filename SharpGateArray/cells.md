@@ -1,5 +1,9 @@
 # SHARP Gate Array Cells
 
+- Two-story layout
+- DFFs use both dual rail CLK and single rail CLK. Where single rail CLK is used, the postfix `_clk` is used in the cell name.
+- Some inputs have test pads ("ears"). It is not known whether they were used for design verification or not, as they are very small.
+
 ## Logic Cell
 
 ![logic_cell.jpg](imgstore/logic_cell.jpg)
@@ -59,19 +63,27 @@ Strong buf. Can act as transparent DLatch (with gate memory), but nyet confirmed
 |![3nand_topo.jpg](imgstore/3nand_topo.jpg)|![3nand_tran.jpg](imgstore/3nand_tran.jpg)|
 |---|---|
 
-### 4-and
-
-|![4and_topo.jpg](imgstore/4and_topo.jpg)|![4and_tran.jpg](imgstore/4and_tran.jpg)|
-|---|---|
-
 ### 3-or
 
 |![3or_topo.jpg](imgstore/3or_topo.jpg)|![3or_tran.jpg](imgstore/3or_tran.jpg)|
 |---|---|
 
+### 3-and
+
+![3and_topo.jpg](imgstore/3and_topo.jpg)
+
+### 4-nor
+
+![4nor_topo.jpg](imgstore/4nor_topo.jpg)
+
 ### 4-or
 
 ![4or_topo.jpg](imgstore/4or_topo.jpg)
+
+### 4-and
+
+|![4and_topo.jpg](imgstore/4and_topo.jpg)|![4and_tran.jpg](imgstore/4and_tran.jpg)|
+|---|---|
 
 ## Fused Comb
 
@@ -138,6 +150,12 @@ Posedge DFF.
 Posedge DFF with additional inverse output (#Q)
 
 ![dffnq_topo.jpg](imgstore/dffnq_topo.jpg)
+
+### dffnq_clk
+
+Posedge DFF with Single-Rail CLK input and additional inverse output (#Q).
+
+![dffnq_clk_topo.jpg](imgstore/dffnq_clk_topo.jpg)
 
 ### dffr
 
