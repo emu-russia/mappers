@@ -1,10 +1,10 @@
 module mbc1 (  D2, D1, D3, D4, D0, n_WR, n_CS, A15, A14, A13, RA14, RA15, RA16, RA17, RA18, n_RESET, RAM_CS, n_RAM_CS, AA14, AA13);
 
-	input wire D2;
-	input wire D1;
-	input wire D3;
-	input wire D4;
-	input wire D0;
+	inout wire D2;
+	inout wire D1;
+	inout wire D3;
+	inout wire D4;
+	inout wire D0;
 	input wire n_WR;
 	input wire n_CS;
 	input wire A15;
@@ -100,11 +100,11 @@ module mbc1 (  D2, D1, D3, D4, D0, n_WR, n_CS, A15, A14, A13, RA14, RA15, RA16, 
 	wire w75;
 	wire w76;
 
-	assign w57 = D2;
-	assign w58 = D1;
-	assign w59 = D3;
-	assign w60 = D4;
-	assign w61 = D0;
+	assign D2 = w57;
+	assign D1 = w58;
+	assign D3 = w59;
+	assign D4 = w60;
+	assign D0 = w61;
 	assign w62 = n_WR;
 	assign w63 = n_CS;
 	assign w64 = A15;
@@ -166,28 +166,28 @@ module mbc1 (  D2, D1, D3, D4, D0, n_WR, n_CS, A15, A14, A13, RA14, RA15, RA16, 
 	mbc1_nor4 g20 (.c(w50), .x(w49), .a(w48), .d(w29), .b(w28) );
 	mbc1_and3 g27 (.a(w34), .b(w36), .c(w47), .x(w37) );
 	mbc1_dff g21 (.d(w17), .cck(w35), .ck(w46), .q(w55) );
-	mbc1_pad_in io18 (.a(w57), .x(w15) );
-	mbc1_pad_in io19 (.a(w58), .x(w16) );
-	mbc1_pad_in io17 (.a(w59), .x(w14) );
-	mbc1_pad_in io16 (.a(w60), .x(w13) );
-	mbc1_pad_in io20 (.a(w61), .x(w17) );
-	mbc1_pad_in io21 (.x(w18), .a(w63) );
-	mbc1_pad_in io22 (.a(w62), .x(w1) );
-	mbc1_pad_in io1 (.a(w64), .x(w42) );
-	mbc1_pad_in io2 (.a(w65), .x(w44) );
-	mbc1_pad_in io3 (.a(w66), .x(w43) );
-	mbc1_pad_out_tris io4 (.x(w67), .a(w23), .ena(w12) );
-	mbc1_pad_out_tris io5 (.x(w68), .a(w22), .ena(w12) );
-	mbc1_pad_out_tris io6 (.x(w69), .a(w19), .ena(w12) );
-	mbc1_pad_out_tris io7 (.x(w70), .a(w20), .ena(w12) );
-	mbc1_pad_out_tris io8 (.x(w71), .a(w56), .ena(w12) );
-	mbc1_pad_in_unbonded io9 (.x(w38) );
-	mbc1_pad_in io10 (.a(w72), .x(w21) );
-	mbc1_pad_out_tris io11 (.x(w73), .a(w3), .ena(w12) );
-	mbc1_pad_out_tris io12 (.ena(w12), .a(w4), .x(w74) );
-	mbc1_pad_out_tris io13 (.a(w2), .ena(w12), .x(w75) );
-	mbc1_pad_in_unbonded io14 (.x(w53) );
-	mbc1_pad_out_tris io15 (.a(w10), .ena(w12), .x(w76) );
+	mbc1_pad_in_pullup io18 (.a(w57), .x(w15) );
+	mbc1_pad_in_pullup io19 (.a(w58), .x(w16) );
+	mbc1_pad_in_pullup io17 (.a(w59), .x(w14) );
+	mbc1_pad_in_pullup io16 (.a(w60), .x(w13) );
+	mbc1_pad_in_pullup io20 (.a(w61), .x(w17) );
+	mbc1_pad_in_pullup io21 (.x(w18), .a(w63) );
+	mbc1_pad_in_pullup io22 (.a(w62), .x(w1) );
+	mbc1_pad_in_pullup io1 (.a(w64), .x(w42) );
+	mbc1_pad_in_pullup io2 (.a(w65), .x(w44) );
+	mbc1_pad_in_pullup io3 (.a(w66), .x(w43) );
+	mbc1_pad_out_tris io4 (.x(w67), .a(w23), .n_ena(w12) );
+	mbc1_pad_out_tris io5 (.x(w68), .a(w22), .n_ena(w12) );
+	mbc1_pad_out_tris io6 (.x(w69), .a(w19), .n_ena(w12) );
+	mbc1_pad_out_tris io7 (.x(w70), .a(w20), .n_ena(w12) );
+	mbc1_pad_out_tris io8 (.x(w71), .a(w56), .n_ena(w12) );
+	mbc1_pad_in_pullup io9 (.x(w38) );
+	mbc1_pad_in_pullup io10 (.a(w72), .x(w21) );
+	mbc1_pad_out_tris io11 (.x(w73), .a(w3), .n_ena(w12) );
+	mbc1_pad_out_tris io12 (.n_ena(w12), .a(w4), .x(w74) );
+	mbc1_pad_out_tris io13 (.a(w2), .n_ena(w12), .x(w75) );
+	mbc1_pad_in_pullup io14 (.x(w53) );
+	mbc1_pad_out_tris io15 (.a(w10), .n_ena(w12), .x(w76) );
 endmodule // mbc1
 
 // Module Definitions [It is possible to wrap here on your primitives]
@@ -322,30 +322,32 @@ module mbc1_and3 (  a, b, c, x);
 
 endmodule // mbc1_and3
 
-module mbc1_pad_in (  a, x);
+module mbc1_pad_in_pullup (  a, x);
 
-	input wire a;
+	inout wire a;
 	output wire x;
 
-endmodule // mbc1_pad_in
+endmodule // mbc1_pad_in_pullup
 
-module mbc1_pad_out_tris (  x, a, ena);
+module mbc1_pad_out_tris (  x, a, n_ena);
 
 	output wire x;
 	input wire a;
-	input wire ena;
+	input wire n_ena;
 
 endmodule // mbc1_pad_out_tris
 
-module mbc1_pad_in_unbonded (  x);
-
-	output wire x;
-
-endmodule // mbc1_pad_in_unbonded
 
 
-
+// WARNING: wire not driving anything w62
+// WARNING: wire not driving anything w63
+// WARNING: wire not driving anything w64
+// WARNING: wire not driving anything w65
+// WARNING: wire not driving anything w66
+// WARNING: wire not driving anything w72
 // WARNING: Cell mbc1_dffnq:g19 port q not connected.
 // WARNING: Cell mbc1_dffnq_clk:g15 port nq not connected.
 // WARNING: Cell mbc1_dffnq_clk:g30 port nq not connected.
 // WARNING: Cell mbc1_dffnq_clk:g36 port nq not connected.
+// WARNING: Cell mbc1_pad_in_pullup:io9 port a not connected.
+// WARNING: Cell mbc1_pad_in_pullup:io14 port a not connected.
