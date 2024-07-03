@@ -4,10 +4,8 @@
 
 ![MMC1_Fused_sm.jpg](imgstore/MMC1_Fused_sm.jpg)
 
-Reconstructing the MMC1 circuit.
-
 - Revision: MMC1 (letterless)
-- ULA(Gate Array) by SHARP
+- Gate Array by SHARP. See: [SHARP Gate Array](/SharpGateArray/cells.md)
 - 2 metal layers
 - N-Pockets
 - 5 rows of cells (flip symmetry)
