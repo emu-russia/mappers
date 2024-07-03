@@ -1,3 +1,3 @@
 # Bonding Pads
 
-![pads](/imgstore/pads.jpg)
+![pads](imgstore/pads.jpg)
