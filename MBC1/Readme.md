@@ -23,7 +23,7 @@ Description of MBC1 can be found in the GAMEBOY Programming Manual: https://arch
 
 Verilog restored within the Deroute utility was fed into PlanAhead and it generated the schematic itself.
 
-![mbc1_desgin](netlist/mbc1_desgin.png)
+![mbc1_design](netlist/mbc1_design.png)
 
 ## Datasets
 
