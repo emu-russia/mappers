@@ -1,4 +1,4 @@
-# Modules
+# SHARP Gate Array Cells
 
 ## Logic Cell
 
@@ -67,6 +67,10 @@ Strong buf. Can act as transparent DLatch (with gate memory), but nyet confirmed
 
 |![3or_topo.jpg](imgstore/3or_topo.jpg)|![3or_tran.jpg](imgstore/3or_tran.jpg)|
 |---|---|
+
+### 4-or
+
+![4or_topo.jpg](imgstore/4or_topo.jpg)
 
 ## Fused Comb
 
