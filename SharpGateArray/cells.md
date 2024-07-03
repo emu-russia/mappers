@@ -51,7 +51,8 @@ Strong buf. Can act as transparent DLatch (with gate memory), but nyet confirmed
 
 ### and
 
-![and_topo.jpg](imgstore/and_topo.jpg)
+|![and_topo.jpg](imgstore/and_topo.jpg)|![and_v2_topo.jpg](imgstore/and_v2_topo.jpg)|
+|---|---|
 
 ### 3-nand
 
