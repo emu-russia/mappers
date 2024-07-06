@@ -1,6 +1,5 @@
 # SHARP Gate Array Cells
 
-- Two-story layout
 - DFFs use both dual rail CLK and single rail CLK. Where single rail CLK is used, the postfix `_clk` is used in the cell name.
 - Some inputs have test pads ("ears"). It is not known whether they were used for design verification or not, as they are very small.
 
