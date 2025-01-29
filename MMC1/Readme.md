@@ -1,4 +1,4 @@
-# MMC1
+# Nintendo MMC1
 
 ![package.jpg](imgstore/package.jpg)
 
@@ -29,6 +29,18 @@ I know of three exceptions:
 - In EVENT, all signals go through a multicart mapper as well
 
 (by PinoBatch / nesdev)
+
+## MMC1 Revisions
+
+- MMC1 Sharp
+- MMC1A Sharp
+- MMC1B1 NEC (Tetris)
+- MMC1B1 ROHM (Faxandu)
+- MMC1B1-H Sharp
+- MMC1B2 Sharp
+- MMC1B2 NEC
+- MMC1B2F  (JRA-PAT Famicom Network System card)
+- MMC1B3 NEC
 
 ## Map
 
